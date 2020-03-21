@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://mapper.kflaphi.ca/ilimapper/analysis -->
+<html lang="en" class="dj_webkit dj_chrome dj_contentbox"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+	<!--<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	--><!--The viewport meta tag is used to improve the presentation and behavior of the samples 
+	  on iOS devices-->
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>ILI Mapper Flu Analysis | KFL&amp;A Public Health</title> 
+	 
+	 
+
+	 
+	<meta name="keywords" content="ILI Mapper, Flu analysis, flu tracking, KFL&amp;A Public Health">
+    <link href="./analysis_files/select2.min.css" rel="stylesheet">
+
+	<!-- Latest compiled and minified bootstrap CSS -->
+	<link rel="stylesheet" href="./analysis_files/bootstrap.min.css">
+	<!-- Custom Styling -->
+	<link rel="stylesheet" href="./analysis_files/main.css">
+	
+	
+</head>  
+
+<body class="claro modal-open"> 
+	
+	
+
+	<script async="" src="./analysis_files/analytics.js"></script><script type="text/javascript" charset="utf-8" src="./analysis_files/jsapi_en-us.js"></script><script type="text/javascript" charset="utf-8" src="./analysis_files/svg.js"></script><script type="text/javascript" charset="utf-8" src="./analysis_files/filters.js"></script><script type="text/javascript" charset="utf-8" src="./analysis_files/svgext.js"></script><script>var ctx = "/ilimapper"</script>
+	<script>var appVersion = "0.1.41";</script>
+	<script>var serverDateEST = "21 Mar 2020 17:03:57 EDT";</script>
+	<script src="./analysis_files/jquery-3.3.1.min.js"></script>
+	
+	<script>var ctx = "/ilimapper"</script>
+	<script>var appVersion = "0.1.41";</script>
+	 
+    <!-- Select2... This IS  a bit of overhead because it only appears once... Consider removing -->
+    <script src="./analysis_files/select2.min.js"></script>
+    <!-- Charting -->
+	<script src="./analysis_files/echarts.min.js"></script>
+	 
+	<!-- Animations TODO
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/plugins/CSSPlugin.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/easing/EasePack.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenLite.min.js"></script>
+	-->
+	<!-- Bootstrap required -->
+	<script src="./analysis_files/bootstrap.bundle.min.js"></script>
+ 
+	<script>  
+	/*var dojoConfig = {
+		async: true, 
+		packages: [{
+					name: "Layers",
+					location: ILIMAPPER.getBaseURL() + '/resources/' + ILIMAPPER.getAppVersion() + '/js/Layers'
+				},
+				{
+					name: "Data",
+					location: ILIMAPPER.getBaseURL() + '/resources/' + ILIMAPPER.getAppVersion() + '/js/Data'
+				},
+				{
+					name: "Tables",
+					location: ILIMAPPER.getBaseURL() + '/resources/' + ILIMAPPER.getAppVersion() + '/js/Tables'
+				},
+				{
+					name: "Season",
+					location: ILIMAPPER.getBaseURL() + '/resources/' + ILIMAPPER.getAppVersion() + '/js/Season'
+				},
+				{
+					name: "Controls",
+					location: ILIMAPPER.getBaseURL() + '/resources/' + ILIMAPPER.getAppVersion() + '/js/Controls'
+				}]
+	};*/
+	</script>
+	<script src="./analysis_files/saved_resource"></script> 
+	 
+
+	<script src="./analysis_files/graph-functionality.js"></script> 
+	
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-68812378-1', 'auto');
+	ga('send', 'pageview');
+	</script>
+	 
+	<div class="modal show" id="ilimodal" tabindex="-1" role="dialog" data-backdrop="static" style="display: block;">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content"> 
+	      <div class="modal-body">
+	        <p>Long-time visitors to ILI Mapper will know that each week we update our projections during seasonal influenza as we have done for the current 2019-2020 season.</p>
+
+			<p>However, those projections and the associated maintenance take time and, given that we are nearing the typical end of seasonal influenza, we have decided to cease ILI Mapper updates this year with immediate effect so that we may focus on our COVID-19 response.</p>
+			
+			<p>Our intention is that ILI Mapper will resume again in the fall of 2020 for the next influenza season.</p>
+	      </div> 
+	    </div>
+	  </div>
+	</div>
+	 
+	<!-- General error notification-->
+	<div id="error-notification" class="alert alert-danger alert-dismissible fade show" role="alert">
+		<p class="error-msg"></p>
+		<button type="button" class="close" aria-label="Close">
+			<span aria-hidden="true">×</span>
+		</button>
+	</div>
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<a class="navbar-brand" href="http://mapper.kflaphi.ca/ilimapper/">
+			<img alt="KFL&amp;A Public Health" src="./analysis_files/kfla-logo.png">
+			<span class="header-logo-text d-none-sm"> ILI Mapper </span>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+   			<span class="navbar-toggler-icon"></span>
+  		</button>
+		<div class="collapse navbar-collapse justify-content-end" id="navbar-content">
+			<ul class="navbar-nav">
+				<li class="navbar-item">
+					<a class="nav-link" href="http://mapper.kflaphi.ca/ilimapper/#map">Map <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="navbar-item">
+					<a class="nav-link" href="http://mapper.kflaphi.ca/ilimapper/analysis">Healthcare Professionals</a>
+				</li>
+				<li class="navbar-item">
+					<a class="nav-link" href="http://mapper.kflaphi.ca/ilimapper/about">About</a>
+				</li>
+				<li class="navbar-item">
+					<a class="nav-link" href="http://mapper.kflaphi.ca/ilimapper/resource">Resources</a>
+				</li>
+				<!-- Not using this for now because I don't think I'll have time to implement all these pages.
+				<li class="navbar-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Resources
+					</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">All Resources</a>
+						<a class="dropdown-item" href="#">About Influenza</a>
+						<a class="dropdown-item" href="#">The Flu Vaccine</a>
+						<a class="dropdown-item" href="#">Immunization Rates</a>
+						<a class="dropdown-item" href="#">Other Flu Tracking Tools</a>
+						<a class="dropdown-item" href="#">Frequently Asked Questions</a>
+					</div>
+				</li>
+				-->
+			</ul>
+		</div>
+	</nav>
+	<main role="main">
+		<!-- Put everything wrapped inside a main -->
+        
+<main class="analysis-page grey-bg">
+
+	<ul class="nav top">
+        <li class="nav-item">
+            <a class="nav-link active" href="http://mapper.kflaphi.ca/ilimapper/analysis/">Real-time Dashboard</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="http://mapper.kflaphi.ca/ilimapper/analysis/ontario-charts">Ontario Charts</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="http://mapper.kflaphi.ca/ilimapper/analysis/kfla-outbreaks">KFL&amp;A Outbreaks</a>
+        </li> 
+    </ul>
+
+    <div class="container-fluid">
+        <div class="row py-3 px-2">
+            <h1><label for="region-select" style="margin-bottom: 0">Activity</label></h1>
+            <div class="font-20 d-flex align-items-center">
+                <span class="mx-3">for</span>
+                <select id="region-select" data-select2-id="region-select" tabindex="-1" class="select2-hidden-accessible" aria-hidden="true">
+                    <option selected="" value="ONTARIO">All of Ontario</option>
+                    <optgroup label="Public Health Unit">
+                        <option value="APH" data-select2-id="2">The District of Algoma Health Unit</option>
+                        <option value="BCHU">Brant County Health Unit</option>
+                        <option value="DRHD">Durham Regional Health Unit</option>
+                        <option value="GBHU">Grey Bruce Health Unit</option>
+                        <option value="HNHU">Haldimand-Norfolk Health Unit</option>
+                        <option value="HKPRDHU">Haliburton, Kawartha, Pine Ridge District Health Unit</option>
+                        <option value="HRHD">Halton Regional Health Unit</option>
+                        <option value="CHPHS">City of Hamilton Health Unit</option>
+                        <option value="HPE">Hastings and Prince Edward Counties Health Unit</option>
+                        <option value="HPPH">Huron Perth Public Health</option>
+                        <option value="CKPHS">Chatham-Kent Health Unit</option>
+                        <option value="KFLA">Kingston, Frontenac and Lennox and Addington Health Unit</option>
+                        <option value="CLCHSD">Lambton Health Unit</option>
+                        <option value="LGL">Leeds, Grenville and Lanark District Health Unit</option>
+                        <option value="MLHU">Middlesex-London Health Unit</option>
+                        <option value="NPHU">Niagara Regional Area Health Unit</option>
+                        <option value="NBPHU">North Bay Parry Sound District Health Unit</option>
+                        <option value="NWHU">Northwestern Health Unit</option>
+                        <option value="COHU">City of Ottawa Health Unit*</option>
+                        <option value="PEEL">Peel Public Health</option>
+                        <option value="PDHU">Perth District Health Unit</option>
+                        <option value="PCCHU">Peterborough Public Health</option>
+                        <option value="PHU">Porcupine Health Unit</option>
+                        <option value="RCDHU">Renfrew County and District Health Unit</option>
+                        <option value="EOHU">The Eastern Ontario Health Unit*</option>
+                        <option value="SMDHU">Simcoe Muskoka District Health Unit</option>
+                        <option value="SWPH">Southwestern Public Health</option>
+                        <option value="SDHU">Sudbury and District Health Unit</option>
+                        <option value="TBPHU">Thunder Bay District Health Unit</option>
+                        <option value="THU">Timiskaming Health Unit</option>
+                        <option value="WHU">Waterloo Health Unit</option>
+                        <option value="WDGHU">Wellington-Dufferin-Guelph Health Unit*^</option>
+                        <option value="WECHU">Windsor-Essex County Health Unit</option>
+                        <option value="YRHU">York Regional Health Unit*</option>
+                        <option value="TOR">Toronto Public Health</option>
+                    </optgroup>
+                    <optgroup label="LHIN">
+                        <option value="3501">Erie St. Clair</option>
+                        <option value="3502">South West</option>
+                        <option value="3503">Waterloo Wellington</option>
+                        <option value="3504">Hamilton Niagara Haldimand Brant</option>
+                        <option value="3505">Central West</option>
+                        <option value="3506">Mississauga Halton</option>
+                        <option value="3507">Toronto Central</option>
+                        <option value="3508">Central</option>
+                        <option value="3509">Central East</option>
+                        <option value="3510">South East</option>
+                        <option value="3511">Champlain</option>
+                        <option value="3512">North Simcoe Muskoka</option>
+                        <option value="3513">North East</option>
+                        <option value="3514">North West</option>
+                    </optgroup>
+                </select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="1" style="width: 578px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-region-select-container"><span class="select2-selection__rendered" id="select2-region-select-container" role="textbox" aria-readonly="true" title="The District of Algoma Health Unit">The District of Algoma Health Unit</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+            </div>
+        </div>
+
+        <div class="row pb-5">
+            <!-- Graph Section -->
+            <div class="col-md-9 graph-section mb-4">
+                <div class="card">
+                    <div id="loading-screen" class="loadingOverlay loading-spin" style="display: none;">
+                        <div class="d-flex align-items-center justify-content-center h-100">
+                            <div class="lds-ripple"><div></div><div></div></div>
+                            <div class="sr-only">Loading...</div>
+                        </div>	
+                    </div>
+                    <div class="row mx-0">
+                        <div id="percent-resp-visits" class="col-lg-3 col-sm-6">
+                            <div class="h3">
+                                <span class="data-value">17.241%</span>
+                            </div>
+                            <div>
+                                <span>Resp Related ED Visits</span>
+                            </div>
+                            <div class="h5">
+                                <span class="arrow decreasing"></span>
+                                <span class="percent-change">-4.19</span>
+                                <span class="base-accent-color">% vs last 7 days</span> 
+                            </div>
+                        </div>
+                        <div id="total-resp-visits" class="col-lg-3 col-sm-6">
+                            <div class="h3">
+                                <span class="data-value">25</span>
+                            </div>
+                            <div>
+                                <span>Total Resp ED Visits</span>
+                            </div>
+                            <div class="h5">
+                                <span class="arrow decreasing"></span>
+                                <span class="percent-change">-28.63</span>
+                                <span class="base-accent-color">% vs last 7 days</span> 
+                            </div>
+                        </div>
+                        <div id="total-ed-visits" class="col-lg-3 col-sm-6">
+                            <div class="h3">
+                                <span class="data-value">145</span>
+                            </div>
+                            <div>
+                                <span>Total ED Visits</span>
+                            </div>
+                            <div class="h5">
+                                <span class="arrow decreasing"></span>
+                                <span class="percent-change">-26.47</span>
+                                <span class="base-accent-color">% vs last 7 days</span> 
+                            </div>
+                        </div>
+                       <!-- <div id="ili-status" class="col-lg-3 col-sm-6">
+                            <div class="h3">
+                                <span class="status-color"></span><span>Seasonal</span>
+                            </div>
+                            <div>
+                                <span>ILI Status</span>
+                            </div>
+                            <div class="h5">
+                                <span class="cutoff-value base-accent-color">>16% Resp Visit</span>
+                            </div> 
+                        </div>-->
+                    </div>
+
+                    <div id="analysis-graph-container" class="my-3" style="width: 100%; height: 700px; -webkit-tap-highlight-color: transparent; user-select: none; position: relative;" _echarts_instance_="ec_1584824639210"><div style="position: relative; overflow: hidden; width: 584px; height: 700px; padding: 0px; margin: 0px; border-width: 0px;"><canvas data-zr-dom-id="zr_0" width="876" height="1050" style="position: absolute; left: 0px; top: 0px; width: 584px; height: 700px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div><div></div></div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card" id="ili-activity-table">
+                    <h2 class="h3">ILI Activity</h2>
+                    <div id="loading-screen" class="loadingOverlay loading-spin" style="display: none;">
+                        </div><table class="table table-borderless">
+                        <thead>
+                            <tr class="base-accent-color text-left">
+                                <th scope="col">Date</th>
+                                <th scope="col">Activity/Risk Level</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="date-text">2020-03-08</th>
+                                <th><span class="status-icon Yellow"></span><span class="status-text">Yellow</span></th>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="date-text">2020-03-01</th>
+                                <th><span class="status-icon Yellow"></span><span class="status-text">Yellow</span></th>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="date-text">2020-02-23</th>
+                                <th><span class="status-icon Green"></span><span class="status-text">Green</span></th>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="date-text">2020-02-16</th>
+                                <th><span class="status-icon Yellow"></span><span class="status-text">Yellow</span></th>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="date-text">2020-02-09</th>
+                                <th><span class="status-icon Green"></span><span class="status-text">Green</span></th>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="date-text">2020-02-02</th>
+                                <th><span class="status-icon Green"></span><span class="status-text">Green</span></th>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="date-text">2020-01-26</th>
+                                <th><span class="status-icon Yellow"></span><span class="status-text">Yellow</span></th>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="date-text"></th>
+                                <th><span class="status-icon"></span><span class="status-text"></span></th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<div id="page-js">
+    <script src="./analysis_files/EventDispatcher.js"></script>
+    <script src="./analysis_files/AnalysisController.js"></script>
+    <script src="./analysis_files/AnalysisModel.js"></script>
+    <script src="./analysis_files/AnalysisView.js"></script>
+    <script src="./analysis_files/analysis.js"></script>
+</div>
+
+	</main>
+
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<h3>Contact Us</h3>
+					<p>KFL&amp;A Public Health Informatics<br>
+						c/o KFL&amp;A Public Health<br>
+						221 Portsmouth Avenue<br>
+						Kingston, ON<br>
+						K7M 1V5
+					</p>
+					<p>Telephone: 613-549-1232<br>
+						Toll Free: 1-800-267-7875<br>
+						Email: <a href="mailto:kflaphi@kflapublichealth.ca">kflaphi@kflapublichealth.ca</a>
+					</p>
+				</div>
+				<div class="col-lg-4">
+					<h3>ILI Mapper Links</h3>
+					<p><a href="http://mapper.kflaphi.ca/ilimapper/analysis#map">View the Map<br>
+						</a><a href="http://mapper.kflaphi.ca/ilimapper/analysis">Healthcare Professional</a><br>
+						<a href="http://mapper.kflaphi.ca/ilimapper/resource">Resources</a><br>
+						<a href="http://mapper.kflaphi.ca/ilimapper/about">About the Map</a><br>
+					</p>
+				</div>
+				<div class="col-lg-4">
+					<img class="mx-auto d-block" alt="KFL&amp;A Public Health" src="./analysis_files/kfla-logo.png">
+					<p class="mt-4 mb-5 text-center">© KFL&amp;A Public Health 2017-2018</p>
+					<div class="social-links row justify-content-center">
+						<a title="" href="https://www.facebook.com/kflapublichealth/" target="_blank">
+							<img alt="Open new window to view our Facebook page" src="./analysis_files/icon-facebook.svg">
+						</a>
+						<a title="" href="https://www.youtube.com/user/KFLAPublicHealth" target="_blank">
+							<img alt="Open new window to view our YouTube page" src="./analysis_files/icon-youtube.svg">
+						</a>
+						<a title="" href="https://twitter.com/KFLAPH" target="_blank">
+							<img alt="Open new window to view our Twitter feed" src="./analysis_files/icon-twitter.svg">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+<script>
+
+$('#ilimodal').modal('show');
+
+</script><div class="modal-backdrop show"></div>
+
+
+</body></html>

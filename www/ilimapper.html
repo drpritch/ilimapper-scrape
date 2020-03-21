@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://mapper.kflaphi.ca/ilimapper/#map -->
+<html lang="en" class="dj_webkit dj_chrome dj_contentbox"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+	<!--<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	--><!--The viewport meta tag is used to improve the presentation and behavior of the samples 
+	  on iOS devices-->
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>ILI Mapper</title> 
+	 
+	 
+
+	 
+	 
+	<link rel="stylesheet" href="./ilimapper_files/claro.css">
+	<link rel="stylesheet" href="./ilimapper_files/esri.css">
+	<link rel="stylesheet" href="./ilimapper_files/FloatingPane.css">
+	
+
+	<!-- Latest compiled and minified bootstrap CSS -->
+	<link rel="stylesheet" href="./ilimapper_files/bootstrap.min.css">
+	<!-- Custom Styling -->
+	<link rel="stylesheet" href="./ilimapper_files/main.css">
+	
+	
+</head>  
+
+<body class="claro modal-open"> 
+	
+	
+
+	<script async="" src="./ilimapper_files/analytics.js"></script><script type="text/javascript" charset="utf-8" src="./ilimapper_files/jsapi_en-us.js"></script><script type="text/javascript" charset="utf-8" src="./ilimapper_files/svg.js"></script><script type="text/javascript" charset="utf-8" src="./ilimapper_files/filters.js"></script><script type="text/javascript" charset="utf-8" src="./ilimapper_files/svgext.js"></script><script>var ctx = "/ilimapper"</script>
+	<script>var appVersion = "0.1.41";</script>
+	<script>var serverDateEST = "21 Mar 2020 17:01:03 EDT";</script>
+	<script src="./ilimapper_files/jquery-3.3.1.min.js"></script>
+	
+	<script>var ctx = "/ilimapper"</script>
+	<script>var appVersion = "0.1.41";</script>
+	 
+    <!-- Select2... This IS  a bit of overhead because it only appears once... Consider removing -->
+    <script src="./ilimapper_files/select2.min.js"></script>
+    <!-- Charting -->
+	<script src="./ilimapper_files/echarts.min.js"></script>
+	 
+	<!-- Animations TODO
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/plugins/CSSPlugin.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/easing/EasePack.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenLite.min.js"></script>
+	-->
+	<!-- Bootstrap required -->
+	<script src="./ilimapper_files/bootstrap.bundle.min.js"></script>
+ 
+	<script>  
+	/*var dojoConfig = {
+		async: true, 
+		packages: [{
+					name: "Layers",
+					location: ILIMAPPER.getBaseURL() + '/resources/' + ILIMAPPER.getAppVersion() + '/js/Layers'
+				},
+				{
+					name: "Data",
+					location: ILIMAPPER.getBaseURL() + '/resources/' + ILIMAPPER.getAppVersion() + '/js/Data'
+				},
+				{
+					name: "Tables",
+					location: ILIMAPPER.getBaseURL() + '/resources/' + ILIMAPPER.getAppVersion() + '/js/Tables'
+				},
+				{
+					name: "Season",
+					location: ILIMAPPER.getBaseURL() + '/resources/' + ILIMAPPER.getAppVersion() + '/js/Season'
+				},
+				{
+					name: "Controls",
+					location: ILIMAPPER.getBaseURL() + '/resources/' + ILIMAPPER.getAppVersion() + '/js/Controls'
+				}]
+	};*/
+	</script>
+	<script src="./ilimapper_files/saved_resource"></script> 
+	 
+
+	<script src="./ilimapper_files/graph-functionality.js"></script> 
+	
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-68812378-1', 'auto');
+	ga('send', 'pageview');
+	</script>
+	 
+	
+	 
+	<!-- General error notification-->
+	<div id="error-notification" class="alert alert-danger alert-dismissible fade show" role="alert">
+		<p class="error-msg"></p>
+		<button type="button" class="close" aria-label="Close">
+			<span aria-hidden="true">×</span>
+		</button>
+	</div>
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<a class="navbar-brand" href="http://mapper.kflaphi.ca/ilimapper/">
+			<img alt="KFL&amp;A Public Health" src="./ilimapper_files/kfla-logo.png">
+			<span class="header-logo-text d-none-sm"> ILI Mapper </span>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+   			<span class="navbar-toggler-icon"></span>
+  		</button>
+		<div class="collapse navbar-collapse justify-content-end" id="navbar-content">
+			<ul class="navbar-nav">
+				<li class="navbar-item">
+					<a class="nav-link" href="http://mapper.kflaphi.ca/ilimapper/#map">Map <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="navbar-item">
+					<a class="nav-link" href="http://mapper.kflaphi.ca/ilimapper/analysis">Healthcare Professionals</a>
+				</li>
+				<li class="navbar-item">
+					<a class="nav-link" href="http://mapper.kflaphi.ca/ilimapper/about">About</a>
+				</li>
+				<li class="navbar-item">
+					<a class="nav-link" href="http://mapper.kflaphi.ca/ilimapper/resource">Resources</a>
+				</li>
+				<!-- Not using this for now because I don't think I'll have time to implement all these pages.
+				<li class="navbar-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Resources
+					</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">All Resources</a>
+						<a class="dropdown-item" href="#">About Influenza</a>
+						<a class="dropdown-item" href="#">The Flu Vaccine</a>
+						<a class="dropdown-item" href="#">Immunization Rates</a>
+						<a class="dropdown-item" href="#">Other Flu Tracking Tools</a>
+						<a class="dropdown-item" href="#">Frequently Asked Questions</a>
+					</div>
+				</li>
+				-->
+			</ul>
+		</div>
+	</nav>
+	<main role="main">
+		<!-- Put everything wrapped inside a main -->
+        
+	<main role="main" class="home">
+	
+	<section id="intro">
+		<img srcset="/ilimapper/resources/0.1.41/images/map-hero-sm.png 480w,
+						/ilimapper/resources/0.1.41/images/map-hero-lg.png 800w" sizes="(max-width: 480px) 480px,
+						800px" src="./ilimapper_files/map-hero-lg.png" alt="">
+		<div class="container">
+			<h1>Let's Prevent the Flu </h1>
+			<p>Get real-time flu surveillance and infectious disease resources.</p>
+		</div>
+	</section>
+	<div class="container intro-actions">
+		<div class="row">
+			<div class="col-lg-4 col-md-6">
+				<div class="card healthcare">
+					<div class="icon">
+						<img alt="Magnifying glass looking at line chart" src="./ilimapper_files/analysis.svg">
+					</div>
+					<div class="card-body">
+						<div class="card-title"><span><a href="http://mapper.kflaphi.ca/ilimapper/analysis">For Healthcare Professionals &nbsp; →</a><span></span></span></div>
+						<p class="card-text">Find the latest influenza-like-illness (ILI) data, updated daily.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="card map">
+					<div class="icon">
+						<img alt="Map" src="./ilimapper_files/map.svg">
+					</div>
+					<div class="card-body">
+						<div class="card-title"><span><a class="red-color" href="http://mapper.kflaphi.ca/ilimapper/#map">View the Map &nbsp; →</a><span></span></span></div>
+						<p class="card-text">See the flu severity status across Ontario.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="card resources">
+					<div class="icon">
+						<img alt="Syringe" src="./ilimapper_files/syringe.svg">
+					</div>
+					<div class="card-body">
+						<div class="card-title"><span><a class="base-lighter-color" href="http://mapper.kflaphi.ca/ilimapper/resource">Find Resources &nbsp; →</a><span></span></span></div>
+						<p class="card-text">Find your local flu shot clinic and resources on infectious disease.</p>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+<!--
+	<section id="ontario-ili">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 align-self-center">
+					<h2 class="h1">Ontario ILI Activity Levels</h2>
+					<p>We analyze the previous weeks of flu activity and try to  predict the upcoming week to adequately prepare.</p> 
+				</div>
+				<div class="col-lg-6">
+					<table class="table table-borderless" id="ontario-table">
+						<thead style="opacity: 0">
+							<tr>
+								<th scope="col">Date</th>
+								<th scope="col">Influenza Activity Level</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr id="projected_week">
+								<th scope="row">Current Week Projection</br><span class="ili-activity-date">Can't fetch dates</span></th>
+								<td class="mx-auto">
+									<figure id="next-week-color">
+										<div class="ontario-ili-color"></div>
+										<figcaption>No data available</figcaption>
+									</figure>
+								</td>
+							</tr>
+							<tr id="current_week">
+								<th scope="row">Past Week</br><span class="ili-activity-date">Can't fetch dates</span></th>
+								<td class="mx-auto">
+									<figure>
+										<div class="ontario-ili-color"></div>
+										<figcaption>No data available</figcaption>
+									</figure>
+								</td>
+							</tr>
+							<tr id="prev_week">
+								<th scope="row">Two Weeks Ago</br><span class="ili-activity-date">Can't fetch dates</span></th>
+								<td class="mx-auto">
+									<figure>
+										<div class="ontario-ili-color"></div>
+										<figcaption>No data available</figcaption>
+									</figure>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</section>
+--->
+	<section id="ili-map-container">
+		<div id="resp-graph-container">
+			<button type="button" class="close" aria-label="Close">
+				<span aria-hidden="true">×</span>
+			</button>
+			<img style="width:50px;height:50px;" src="./ilimapper_files/saved_resource(1)">
+			<h3 id="resp-graph-title" class="text-center"></h3>
+			<figure id="resp-graph"></figure>
+		</div>
+		<div class="container-fluid">
+			<div class="text-center">
+				<h2 class="h1">Track the Flu Across Ontario</h2>
+				<p>See ILI activity in real-time, reported by 97% of hospitals across the province.</p>
+				<p>Questions about this map? Visit our <a href="http://mapper.kflaphi.ca/ilimapper/about">about the map</a> page</p>
+			</div>
+			<div class="row mt-4">
+				<div class="col-lg-4" id="map-controls">
+					<div id="layer-list">
+						<fieldset> 
+							<div class="btn-group btn-group-toggle btn-block mb-4" data-toggle="buttons">
+								<label class="btn btn-primary" id="lhin_layer">
+									<input type="radio" name="lhin_layer" id="lhin_layer_input" autocomplete="off"> LHIN
+								</label>
+								<label class="btn btn-primary active" id="phu_layer">
+									<input type="radio" name="phu_layer" id="phu_layer_input" autocomplete="off" checked="checked"> Public Health Unit
+								</label>
+							</div>
+							<div class="form-group">
+								<span class="switch">
+									<input type="checkbox" class="switch" id="hosp_layer">
+									<label for="hosp_layer" style="width:75px"></label>
+								</span>
+									<label for="hosp_layer">Hospitals</label>
+							</div>
+						</fieldset>
+					</div>
+					<!-- Flu Season Select -->
+					<div class="mb-4">
+						<label class="h5" for="yearSelected">Flu Season</label>
+						<select class="form-control" id="yearSelected"> </select>
+					</div>
+					<!-- Time Slider -->
+					<div class="mb-4">
+						<div class="timeWindow">
+							<div id="timeSliderWin"> 
+								<label class="h5" for="timeSliderDiv">Time Period</label>
+								<div style="margin-bottom:5px;"> 
+									<span id="weekNum"></span>
+									<span id="weekDate"></span>
+								</div>
+								<div id="timeSliderDiv" style="width:100%; height:100%;"></div>
+							</div>
+						</div> 
+						<div id="weekErrorMessage" style="display:none">	 
+							<div style="padding-top:10px;"><span style="color:red">The map data for week is currently unavailable.</span></div> 
+						</div> 
+					</div>
+				</div> 
+
+				<!-- MAP -->
+				<div class="col-lg-8">
+					<figure id="map">
+						<div id="mapLoadingOverlay" class="loadingOverlay">
+							<div class="d-flex align-items-center justify-content-center h-100">
+								<div class="lds-ripple"><div></div><div></div></div>
+								<div class="sr-only">Loading...</div>
+							</div>	
+						</div>
+						<div id="toolTip" class="tooltip"></div>
+					</figure>
+					<p>This map is not compliant with the Accessibility for Ontarians with Disabilities Act (AODA) because the technology does not exist to make the map compliant.  Please contact KFL&amp;A Public Health Knowledge Management at 613-549-1232 for an alternate format.</p>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="more-data">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 align-self-center">
+					<h2 class="h1">Looking for more data?</h2>
+					<p>Our analytics page can give you a broad range of data for ILI Activity across ontario, and for a specific PHU.</p>
+					<div>
+						<a href="http://mapper.kflaphi.ca/ilimapper/analysis" class="btn btn-primary">View Data</a>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<img srcset="/ilimapper/resources/0.1.41/images/more-data-img-sm.png 450w,
+						/ilimapper/resources/0.1.41/images/more-data-img-lg.png 850w" sizes="(max-width: 480px) 450px,
+								850px" src="./ilimapper_files/more-data-img-lg.png" alt="Our ILI analytics dashboard showing respiratory related ED visits percentages of Ontario with graph" class="my-5">
+				</div>
+			</div>
+			
+		</div>
+	</section>
+
+	<section id="resources">
+		<div class="container-fluid">
+			<div class="row white-color">
+				<div class="col-md-5" id="flu-shot-img"></div>
+				<div class="col-md-7 pl-5 align-self-center">
+					<h2 class="h1">Stay up to date with Influenza</h2>
+					<p>Get the latest resources on everything flu related from Government data to flu shots.</p>
+					<div>
+						<a href="http://mapper.kflaphi.ca/ilimapper/resource" class="btn btn-primary-inverse">See Resources</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	</main>
+
+
+
+
+	</main>
+
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<h3>Contact Us</h3>
+					<p>KFL&amp;A Public Health Informatics<br>
+						c/o KFL&amp;A Public Health<br>
+						221 Portsmouth Avenue<br>
+						Kingston, ON<br>
+						K7M 1V5
+					</p>
+					<p>Telephone: 613-549-1232<br>
+						Toll Free: 1-800-267-7875<br>
+						Email: <a href="mailto:kflaphi@kflapublichealth.ca">kflaphi@kflapublichealth.ca</a>
+					</p>
+				</div>
+				<div class="col-lg-4">
+					<h3>ILI Mapper Links</h3>
+					<p><a href="http://mapper.kflaphi.ca/ilimapper/#map">View the Map<br>
+						</a><a href="http://mapper.kflaphi.ca/ilimapper/analysis">Healthcare Professional</a><br>
+						<a href="http://mapper.kflaphi.ca/ilimapper/resource">Resources</a><br>
+						<a href="http://mapper.kflaphi.ca/ilimapper/about">About the Map</a><br>
+					</p>
+				</div>
+				<div class="col-lg-4">
+					<img class="mx-auto d-block" alt="KFL&amp;A Public Health" src="./ilimapper_files/kfla-logo.png">
+					<p class="mt-4 mb-5 text-center">© KFL&amp;A Public Health 2017-2018</p>
+					<div class="social-links row justify-content-center">
+						<a title="" href="https://www.facebook.com/kflapublichealth/" target="_blank">
+							<img alt="Open new window to view our Facebook page" src="./ilimapper_files/icon-facebook.svg">
+						</a>
+						<a title="" href="https://www.youtube.com/user/KFLAPublicHealth" target="_blank">
+							<img alt="Open new window to view our YouTube page" src="./ilimapper_files/icon-youtube.svg">
+						</a>
+						<a title="" href="https://twitter.com/KFLAPH" target="_blank">
+							<img alt="Open new window to view our Twitter feed" src="./ilimapper_files/icon-twitter.svg">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+<script>
+
+$('#ilimodal').modal('show');
+
+</script>
+
+
+</body></html>
