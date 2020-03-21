@@ -23,7 +23,7 @@
 	
 </head>  
 
-<body class="claro modal-open"> 
+<body class="claro">
 	
 	
 
@@ -87,8 +87,7 @@
 	ga('create', 'UA-68812378-1', 'auto');
 	ga('send', 'pageview');
 	</script>
-	 
-	<div class="modal show" id="ilimodal" tabindex="-1" role="dialog" data-backdrop="static" style="display: block;">
+	<div class="modal show" id="ilimodal" tabindex="-1" role="dialog" data-backdrop="static" style="display: none;">
 	  <div class="modal-dialog" role="document">
 	    <div class="modal-content"> 
 	      <div class="modal-body">
@@ -403,9 +402,13 @@
 	</footer>
 <script>
 
-$('#ilimodal').modal('show');
+//$('#ilimodal').modal('show');
+window.setTimeout(function() {
+var select2Stuff = $('.select2-container--default');
+select2Stuff[0].style.width = '100%';
+select2Stuff[1].style.display = 'none';
+}, 500);
 
-</script><div class="modal-backdrop show"></div>
-
+</script><!--<div class="modal-backdrop show"></div>-->
 
 </body></html>

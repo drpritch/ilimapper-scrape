@@ -15,6 +15,6 @@ For those who just want the data:
 - ilimapper.xlsx has the two 2D tables imported into Excel, and a summary graph for the GTHA
 
 For those who want to work with the scripts:
-- doit.sh downloads the JSON files from the ilimapper website
-- doit.R then processes those JSON files and creates the outputs
+- scrape.sh downloads the JSON files from the ilimapper website
+- json2csv.R then processes those JSON files and creates the outputs
 - updating the Excel and PNG aren't yet automated
