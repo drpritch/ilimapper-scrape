@@ -72,7 +72,7 @@
                         <scale>0.375</scale>
                         <heading>0.0</heading>
                         <Icon>
-                            <href>http://geo2.kflaphi.ca:80/geoserver/kml/icon/hospitals_available?0.0.0=</href>
+                            <href>geoserver/kml/icon/hospitals_available.png</href>
                             <refreshInterval>0.0</refreshInterval>
                             <viewRefreshTime>0.0</viewRefreshTime>
                             <viewBoundScale>0.0</viewBoundScale>
