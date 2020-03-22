@@ -94,7 +94,7 @@
 					"displayName": "Hospitals",
 					"baseURL": "http://proxy.kflaphi.ca/?http://geo2.kflaphi.ca/geoserver/KFLA/wms",
 					//"baseURL": "http://prodcl1.kflaphi.ca/geoserver/kfla/wms?",
-					"url": "http://proxy.kflaphi.ca/?http://prodcl1.kflaphi.ca/geoserver/kfla/wms?service=WMS&version=1.1.0&request=GetMap&layers=kfla:Hospitals_ER&styles=&bbox=-1.059258602933216E7,5117780.904521567,-8275939.582823402,7731361.2294783145&width=680&height=768&srs=EPSG:3857&format=application%2Fvnd.google-earth.kml%2Bxml",
+					"url": "KFLA-Hospitals_ER.kml",
 					"metaDataURL": "",
 					"legendURL": "https://s3.amazonaws.com/geoserver-images/lhin.png",
 					"requireProxy": false,

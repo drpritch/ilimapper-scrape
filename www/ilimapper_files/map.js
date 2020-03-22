@@ -95,6 +95,7 @@ require([
 						var m = ((startDate.getMonth()+1) < 10 ? "0"+(startDate.getMonth()+1) : (startDate.getMonth()+1)); 
 						var d = ((startDate.getDate())  < 10 ? "0"+(startDate.getDate()) : (startDate.getDate()));  
 						layerArray[i]._queryParams.viewparams = "ClassID:Resp;WeekAdmission:"+y+"-"+m+"-"+d+";GeoType:PHU";
+						layerArray[i]._url = "KFLA-ili_mapper_" + y+"-"+m+"-"+d+".kml";
 									  
 						break;   
 					case "Local Health Integration Networks":
@@ -103,6 +104,7 @@ require([
 						var m = ((startDate.getMonth()+1) < 10 ? "0"+(startDate.getMonth()+1) : (startDate.getMonth()+1)); 
 						var d = ((startDate.getDate())  < 10 ? "0"+(startDate.getDate()) : (startDate.getDate()));  
 						layerArray[i]._queryParams.viewparams = "ClassID:Resp;WeekAdmission:"+y+"-"+m+"-"+d+";GeoType:LHIN";
+						layerArray[i]._url = "KFLA-ili_mapper_lhin_" + y+"-"+m+"-"+d+".kml";
 									  
 						break;   
 				}  
@@ -151,6 +153,7 @@ require([
 				var d = ((startDate.getDate()) < 10 ? "0"+(startDate.getDate()) : (startDate.getDate()));
 	 
 				layerArray[0]._queryParams.viewparams = "ClassID:Resp;WeekAdmission:"+y+"-"+m+"-"+d+";GeoType:PHU"; 
+                                layerArray[0]._url = "KFLA-ili_mapper_" + y+"-"+m+"-"+d+".kml";
 				
 				if(!layerArray[0]._request.isResolved()){
 					layerArray[0]._request.cancel();   
@@ -162,6 +165,7 @@ require([
 				});  
 				
 				layerArray[1]._queryParams.viewparams = "ClassID:Resp;WeekAdmission:"+y+"-"+m+"-"+d+";GeoType:LHIN"; 
+                                layerArray[1]._url = "KFLA-ili_mapper_lhin_" + y+"-"+m+"-"+d+".kml";
 				
 				if(!layerArray[1]._request.isResolved()){
 					layerArray[1]._request.cancel();   
