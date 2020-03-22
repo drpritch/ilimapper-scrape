@@ -10,10 +10,11 @@
 		},
 		Generate: function(season){
 			return xhr.get({ 
-				url: ILIMAPPER.getBaseURL() + "/API/getMapperContent?flu_season="+season,  
+				//url: ILIMAPPER.getBaseURL() + "/API/getMapperContent?flu_season="+season,  
+				url: "getMapperContent.json",
 				sync: false,
 				load: function(data) {
-					var data = JSON.parse(data); 
+					//var data = JSON.parse(data); 
 					for(var i in data){
 						var id = (data[i].title).replace(/\s/g , "_"); 
 						var desc = decodeURI(data[i].description);  

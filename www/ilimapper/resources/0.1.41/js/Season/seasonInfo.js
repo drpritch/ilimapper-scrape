@@ -10,7 +10,7 @@
 		},
 		Generate: function(){
 			return xhr.get({ 
-				url: ILIMAPPER.getBaseURL() + "/API/getSeasons", 
+				url: "getSeasons.json",
 				handleAs: "json", 
 				sync: false,
 				load: function(result) {  

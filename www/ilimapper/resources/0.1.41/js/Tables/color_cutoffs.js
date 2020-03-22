@@ -14,10 +14,11 @@
 		Generate: function(season){ 
 			$.ajax({
 				type: 'GET',
-				url: ILIMAPPER.getBaseURL() + "/API/getCutoffs?flu_season="+season+"&geo_type="+this._id,   
+				//url: ILIMAPPER.getBaseURL() + "/API/getCutoffs?flu_season="+season+"&geo_type="+this._id,   
+				url: "getCutoffs_" + this._id + ".json",   
 				success: function (data) {  
 					 	
-					var listOfPhuCutoffs = JSON.parse(data); 
+					var listOfPhuCutoffs = data; //JSON.parse(data); 
 					
 					// iterate through list and generate cutoffData data structure
 					for (region in listOfPhuCutoffs) {
