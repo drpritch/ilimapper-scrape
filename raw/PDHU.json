@@ -1,7 +1,7 @@
 [
    {
-      "AllVisits" : 0,
       "RespVisits" : 0,
+      "AllVisits" : 0,
       "AdmissionDate" : "2019-09-23"
    },
    {
@@ -11,12 +11,12 @@
    },
    {
       "AdmissionDate" : "2019-09-25",
-      "AllVisits" : 0,
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
-      "RespVisits" : 0,
       "AllVisits" : 0,
+      "RespVisits" : 0,
       "AdmissionDate" : "2019-09-26"
    },
    {
@@ -25,29 +25,29 @@
       "RespVisits" : 0
    },
    {
-      "AllVisits" : 0,
       "RespVisits" : 0,
+      "AllVisits" : 0,
       "AdmissionDate" : "2019-09-28"
    },
    {
-      "AdmissionDate" : "2019-09-29",
+      "RespVisits" : 0,
       "AllVisits" : 0,
-      "RespVisits" : 0
+      "AdmissionDate" : "2019-09-29"
+   },
+   {
+      "RespVisits" : 0,
+      "AllVisits" : 0,
+      "AdmissionDate" : "2019-09-30"
+   },
+   {
+      "RespVisits" : 0,
+      "AllVisits" : 0,
+      "AdmissionDate" : "2019-10-01"
    },
    {
       "AllVisits" : 0,
       "RespVisits" : 0,
-      "AdmissionDate" : "2019-09-30"
-   },
-   {
-      "AllVisits" : 0,
-      "AdmissionDate" : "2019-10-01",
-      "RespVisits" : 0
-   },
-   {
-      "AdmissionDate" : "2019-10-02",
-      "AllVisits" : 0,
-      "RespVisits" : 0
+      "AdmissionDate" : "2019-10-02"
    },
    {
       "AdmissionDate" : "2019-10-03",
@@ -55,9 +55,9 @@
       "RespVisits" : 0
    },
    {
-      "AllVisits" : 0,
+      "AdmissionDate" : "2019-10-04",
       "RespVisits" : 0,
-      "AdmissionDate" : "2019-10-04"
+      "AllVisits" : 0
    },
    {
       "RespVisits" : 0,
@@ -65,9 +65,9 @@
       "AdmissionDate" : "2019-10-05"
    },
    {
+      "AdmissionDate" : "2019-10-06",
       "RespVisits" : 0,
-      "AllVisits" : 0,
-      "AdmissionDate" : "2019-10-06"
+      "AllVisits" : 0
    },
    {
       "AdmissionDate" : "2019-10-07",
@@ -75,18 +75,18 @@
       "RespVisits" : 0
    },
    {
-      "AdmissionDate" : "2019-10-08",
       "AllVisits" : 0,
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AdmissionDate" : "2019-10-08"
    },
    {
       "AllVisits" : 0,
-      "AdmissionDate" : "2019-10-09",
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AdmissionDate" : "2019-10-09"
    },
    {
-      "AllVisits" : 0,
       "AdmissionDate" : "2019-10-10",
+      "AllVisits" : 0,
       "RespVisits" : 0
    },
    {
@@ -96,83 +96,83 @@
    },
    {
       "AllVisits" : 0,
-      "AdmissionDate" : "2019-10-12",
-      "RespVisits" : 0
-   },
-   {
-      "AllVisits" : 0,
-      "AdmissionDate" : "2019-10-13",
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AdmissionDate" : "2019-10-12"
    },
    {
       "AllVisits" : 0,
       "RespVisits" : 0,
-      "AdmissionDate" : "2019-10-14"
+      "AdmissionDate" : "2019-10-13"
    },
    {
-      "AllVisits" : 0,
-      "RespVisits" : 0,
-      "AdmissionDate" : "2019-10-15"
-   },
-   {
-      "AdmissionDate" : "2019-10-16",
+      "AdmissionDate" : "2019-10-14",
       "AllVisits" : 0,
       "RespVisits" : 0
    },
    {
+      "AdmissionDate" : "2019-10-15",
+      "RespVisits" : 0,
+      "AllVisits" : 0
+   },
+   {
       "AllVisits" : 0,
+      "RespVisits" : 0,
+      "AdmissionDate" : "2019-10-16"
+   },
+   {
       "AdmissionDate" : "2019-10-17",
+      "AllVisits" : 0,
       "RespVisits" : 0
    },
    {
+      "AdmissionDate" : "2019-10-18",
       "RespVisits" : 0,
-      "AllVisits" : 0,
-      "AdmissionDate" : "2019-10-18"
-   },
-   {
-      "AllVisits" : 0,
-      "AdmissionDate" : "2019-10-19",
-      "RespVisits" : 0
-   },
-   {
-      "AllVisits" : 0,
-      "AdmissionDate" : "2019-10-20",
-      "RespVisits" : 0
+      "AllVisits" : 0
    },
    {
       "AllVisits" : 0,
       "RespVisits" : 0,
+      "AdmissionDate" : "2019-10-19"
+   },
+   {
+      "AllVisits" : 0,
+      "RespVisits" : 0,
+      "AdmissionDate" : "2019-10-20"
+   },
+   {
+      "RespVisits" : 0,
+      "AllVisits" : 0,
       "AdmissionDate" : "2019-10-21"
    },
    {
-      "AllVisits" : 0,
-      "AdmissionDate" : "2019-10-22",
-      "RespVisits" : 0
-   },
-   {
       "RespVisits" : 0,
       "AllVisits" : 0,
-      "AdmissionDate" : "2019-10-23"
+      "AdmissionDate" : "2019-10-22"
    },
    {
+      "AdmissionDate" : "2019-10-23",
       "AllVisits" : 0,
-      "AdmissionDate" : "2019-10-24",
       "RespVisits" : 0
    },
    {
       "AllVisits" : 0,
       "RespVisits" : 0,
-      "AdmissionDate" : "2019-10-25"
+      "AdmissionDate" : "2019-10-24"
    },
    {
-      "AdmissionDate" : "2019-10-26",
-      "AllVisits" : 0,
-      "RespVisits" : 0
+      "AdmissionDate" : "2019-10-25",
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
-      "AdmissionDate" : "2019-10-27",
+      "RespVisits" : 0,
       "AllVisits" : 0,
-      "RespVisits" : 0
+      "AdmissionDate" : "2019-10-26"
+   },
+   {
+      "RespVisits" : 0,
+      "AllVisits" : 0,
+      "AdmissionDate" : "2019-10-27"
    },
    {
       "RespVisits" : 0,
@@ -180,34 +180,34 @@
       "AdmissionDate" : "2019-10-28"
    },
    {
-      "AdmissionDate" : "2019-10-29",
-      "AllVisits" : 0,
-      "RespVisits" : 0
-   },
-   {
       "AllVisits" : 0,
       "RespVisits" : 0,
+      "AdmissionDate" : "2019-10-29"
+   },
+   {
+      "RespVisits" : 0,
+      "AllVisits" : 0,
       "AdmissionDate" : "2019-10-30"
    },
    {
       "AdmissionDate" : "2019-10-31",
-      "AllVisits" : 0,
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AllVisits" : 0
+   },
+   {
+      "AdmissionDate" : "2019-11-01",
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
       "AllVisits" : 0,
       "RespVisits" : 0,
-      "AdmissionDate" : "2019-11-01"
+      "AdmissionDate" : "2019-11-02"
    },
    {
       "AllVisits" : 0,
-      "AdmissionDate" : "2019-11-02",
-      "RespVisits" : 0
-   },
-   {
-      "AdmissionDate" : "2019-11-03",
-      "AllVisits" : 0,
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AdmissionDate" : "2019-11-03"
    },
    {
       "AdmissionDate" : "2019-11-04",
@@ -215,8 +215,8 @@
       "RespVisits" : 0
    },
    {
-      "AllVisits" : 0,
       "RespVisits" : 0,
+      "AllVisits" : 0,
       "AdmissionDate" : "2019-11-05"
    },
    {
@@ -225,29 +225,29 @@
       "AdmissionDate" : "2019-11-06"
    },
    {
-      "RespVisits" : 0,
       "AllVisits" : 0,
+      "RespVisits" : 0,
       "AdmissionDate" : "2019-11-07"
    },
    {
       "AdmissionDate" : "2019-11-08",
-      "AllVisits" : 0,
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
       "AdmissionDate" : "2019-11-09",
-      "AllVisits" : 0,
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
+      "RespVisits" : 0,
       "AllVisits" : 0,
-      "AdmissionDate" : "2019-11-10",
-      "RespVisits" : 0
+      "AdmissionDate" : "2019-11-10"
    },
    {
-      "AllVisits" : 0,
       "AdmissionDate" : "2019-11-11",
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
       "AdmissionDate" : "2019-11-12",
@@ -255,14 +255,14 @@
       "RespVisits" : 0
    },
    {
-      "AllVisits" : 0,
       "AdmissionDate" : "2019-11-13",
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
-      "AllVisits" : 0,
       "AdmissionDate" : "2019-11-14",
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
       "AllVisits" : 0,
@@ -270,19 +270,19 @@
       "AdmissionDate" : "2019-11-15"
    },
    {
-      "AllVisits" : 0,
       "RespVisits" : 0,
+      "AllVisits" : 0,
       "AdmissionDate" : "2019-11-16"
    },
    {
-      "AdmissionDate" : "2019-11-17",
+      "RespVisits" : 0,
       "AllVisits" : 0,
-      "RespVisits" : 0
+      "AdmissionDate" : "2019-11-17"
    },
    {
-      "AllVisits" : 0,
       "AdmissionDate" : "2019-11-18",
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
       "RespVisits" : 0,
@@ -290,14 +290,14 @@
       "AdmissionDate" : "2019-11-19"
    },
    {
-      "AllVisits" : 0,
       "AdmissionDate" : "2019-11-20",
+      "AllVisits" : 0,
       "RespVisits" : 0
    },
    {
+      "RespVisits" : 0,
       "AllVisits" : 0,
-      "AdmissionDate" : "2019-11-21",
-      "RespVisits" : 0
+      "AdmissionDate" : "2019-11-21"
    },
    {
       "AllVisits" : 0,
@@ -305,38 +305,38 @@
       "AdmissionDate" : "2019-11-22"
    },
    {
-      "AllVisits" : 0,
       "AdmissionDate" : "2019-11-23",
+      "AllVisits" : 0,
       "RespVisits" : 0
    },
    {
-      "RespVisits" : 0,
+      "AdmissionDate" : "2019-11-24",
       "AllVisits" : 0,
-      "AdmissionDate" : "2019-11-24"
+      "RespVisits" : 0
    },
    {
-      "AllVisits" : 0,
       "AdmissionDate" : "2019-11-25",
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
-      "AllVisits" : 0,
       "RespVisits" : 0,
+      "AllVisits" : 0,
       "AdmissionDate" : "2019-11-26"
    },
    {
-      "AdmissionDate" : "2019-11-27",
       "AllVisits" : 0,
-      "RespVisits" : 0
-   },
-   {
-      "AdmissionDate" : "2019-11-28",
-      "AllVisits" : 0,
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AdmissionDate" : "2019-11-27"
    },
    {
       "RespVisits" : 0,
       "AllVisits" : 0,
+      "AdmissionDate" : "2019-11-28"
+   },
+   {
+      "AllVisits" : 0,
+      "RespVisits" : 0,
       "AdmissionDate" : "2019-11-29"
    },
    {
@@ -345,24 +345,24 @@
       "RespVisits" : 0
    },
    {
-      "AllVisits" : 0,
+      "AdmissionDate" : "2019-12-01",
       "RespVisits" : 0,
-      "AdmissionDate" : "2019-12-01"
+      "AllVisits" : 0
    },
    {
-      "AdmissionDate" : "2019-12-02",
+      "AllVisits" : 0,
+      "RespVisits" : 0,
+      "AdmissionDate" : "2019-12-02"
+   },
+   {
+      "AdmissionDate" : "2019-12-03",
       "AllVisits" : 0,
       "RespVisits" : 0
    },
    {
       "AllVisits" : 0,
       "RespVisits" : 0,
-      "AdmissionDate" : "2019-12-03"
-   },
-   {
-      "AllVisits" : 0,
-      "AdmissionDate" : "2019-12-04",
-      "RespVisits" : 0
+      "AdmissionDate" : "2019-12-04"
    },
    {
       "AdmissionDate" : "2019-12-05",
@@ -370,29 +370,29 @@
       "RespVisits" : 0
    },
    {
-      "AdmissionDate" : "2019-12-06",
+      "RespVisits" : 0,
       "AllVisits" : 0,
-      "RespVisits" : 0
+      "AdmissionDate" : "2019-12-06"
+   },
+   {
+      "AdmissionDate" : "2019-12-07",
+      "RespVisits" : 0,
+      "AllVisits" : 0
+   },
+   {
+      "AdmissionDate" : "2019-12-08",
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
       "AllVisits" : 0,
       "RespVisits" : 0,
-      "AdmissionDate" : "2019-12-07"
-   },
-   {
-      "RespVisits" : 0,
-      "AllVisits" : 0,
-      "AdmissionDate" : "2019-12-08"
-   },
-   {
-      "RespVisits" : 0,
-      "AllVisits" : 0,
       "AdmissionDate" : "2019-12-09"
    },
    {
-      "AdmissionDate" : "2019-12-10",
       "AllVisits" : 0,
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AdmissionDate" : "2019-12-10"
    },
    {
       "AdmissionDate" : "2019-12-11",
@@ -400,48 +400,48 @@
       "RespVisits" : 0
    },
    {
-      "AllVisits" : 0,
       "AdmissionDate" : "2019-12-12",
+      "AllVisits" : 0,
       "RespVisits" : 0
    },
    {
+      "RespVisits" : 0,
       "AllVisits" : 0,
-      "AdmissionDate" : "2019-12-13",
-      "RespVisits" : 0
+      "AdmissionDate" : "2019-12-13"
    },
    {
       "AdmissionDate" : "2019-12-14",
-      "AllVisits" : 0,
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
-      "AllVisits" : 0,
       "AdmissionDate" : "2019-12-15",
-      "RespVisits" : 0
-   },
-   {
-      "AllVisits" : 0,
-      "AdmissionDate" : "2019-12-16",
-      "RespVisits" : 0
-   },
-   {
-      "AllVisits" : 0,
       "RespVisits" : 0,
-      "AdmissionDate" : "2019-12-17"
+      "AllVisits" : 0
    },
    {
-      "AllVisits" : 0,
       "RespVisits" : 0,
-      "AdmissionDate" : "2019-12-18"
+      "AllVisits" : 0,
+      "AdmissionDate" : "2019-12-16"
    },
    {
-      "AdmissionDate" : "2019-12-19",
+      "AdmissionDate" : "2019-12-17",
       "AllVisits" : 0,
       "RespVisits" : 0
    },
    {
+      "AdmissionDate" : "2019-12-18",
       "AllVisits" : 0,
+      "RespVisits" : 0
+   },
+   {
+      "RespVisits" : 0,
+      "AllVisits" : 0,
+      "AdmissionDate" : "2019-12-19"
+   },
+   {
       "AdmissionDate" : "2019-12-20",
+      "AllVisits" : 0,
       "RespVisits" : 0
    },
    {
@@ -450,24 +450,24 @@
       "AdmissionDate" : "2019-12-21"
    },
    {
-      "AllVisits" : 0,
       "AdmissionDate" : "2019-12-22",
-      "RespVisits" : 0
-   },
-   {
       "AllVisits" : 0,
-      "AdmissionDate" : "2019-12-23",
       "RespVisits" : 0
    },
    {
       "AllVisits" : 0,
       "RespVisits" : 0,
-      "AdmissionDate" : "2019-12-24"
+      "AdmissionDate" : "2019-12-23"
    },
    {
+      "AdmissionDate" : "2019-12-24",
       "AllVisits" : 0,
-      "AdmissionDate" : "2019-12-25",
       "RespVisits" : 0
+   },
+   {
+      "AdmissionDate" : "2019-12-25",
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
       "RespVisits" : 0,
@@ -476,8 +476,8 @@
    },
    {
       "AllVisits" : 0,
-      "AdmissionDate" : "2019-12-27",
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AdmissionDate" : "2019-12-27"
    },
    {
       "AllVisits" : 0,
@@ -486,13 +486,13 @@
    },
    {
       "AdmissionDate" : "2019-12-29",
-      "AllVisits" : 0,
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
       "AdmissionDate" : "2019-12-30",
-      "AllVisits" : 0,
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
       "RespVisits" : 0,
@@ -510,34 +510,34 @@
       "AdmissionDate" : "2020-01-02"
    },
    {
-      "AdmissionDate" : "2020-01-03",
-      "AllVisits" : 0,
-      "RespVisits" : 0
-   },
-   {
       "AllVisits" : 0,
       "RespVisits" : 0,
+      "AdmissionDate" : "2020-01-03"
+   },
+   {
+      "RespVisits" : 0,
+      "AllVisits" : 0,
       "AdmissionDate" : "2020-01-04"
    },
    {
-      "AllVisits" : 0,
       "AdmissionDate" : "2020-01-05",
-      "RespVisits" : 0
-   },
-   {
-      "AdmissionDate" : "2020-01-06",
-      "AllVisits" : 0,
-      "RespVisits" : 0
-   },
-   {
-      "AdmissionDate" : "2020-01-07",
-      "AllVisits" : 0,
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
       "AllVisits" : 0,
       "RespVisits" : 0,
-      "AdmissionDate" : "2020-01-08"
+      "AdmissionDate" : "2020-01-06"
+   },
+   {
+      "RespVisits" : 0,
+      "AllVisits" : 0,
+      "AdmissionDate" : "2020-01-07"
+   },
+   {
+      "AdmissionDate" : "2020-01-08",
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
       "RespVisits" : 0,
@@ -545,54 +545,54 @@
       "AdmissionDate" : "2020-01-09"
    },
    {
-      "RespVisits" : 0,
       "AllVisits" : 0,
+      "RespVisits" : 0,
       "AdmissionDate" : "2020-01-10"
    },
    {
-      "AdmissionDate" : "2020-01-11",
+      "RespVisits" : 0,
       "AllVisits" : 0,
-      "RespVisits" : 0
-   },
-   {
-      "AdmissionDate" : "2020-01-12",
-      "AllVisits" : 0,
-      "RespVisits" : 0
+      "AdmissionDate" : "2020-01-11"
    },
    {
       "AllVisits" : 0,
+      "RespVisits" : 0,
+      "AdmissionDate" : "2020-01-12"
+   },
+   {
       "AdmissionDate" : "2020-01-13",
-      "RespVisits" : 0
-   },
-   {
-      "AllVisits" : 0,
-      "AdmissionDate" : "2020-01-14",
-      "RespVisits" : 0
-   },
-   {
-      "AdmissionDate" : "2020-01-15",
-      "AllVisits" : 0,
-      "RespVisits" : 0
-   },
-   {
-      "AllVisits" : 0,
-      "AdmissionDate" : "2020-01-16",
-      "RespVisits" : 0
-   },
-   {
-      "AllVisits" : 0,
-      "AdmissionDate" : "2020-01-17",
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
       "AllVisits" : 0,
       "RespVisits" : 0,
-      "AdmissionDate" : "2020-01-18"
+      "AdmissionDate" : "2020-01-14"
    },
    {
       "AllVisits" : 0,
       "RespVisits" : 0,
-      "AdmissionDate" : "2020-01-19"
+      "AdmissionDate" : "2020-01-15"
+   },
+   {
+      "AllVisits" : 0,
+      "RespVisits" : 0,
+      "AdmissionDate" : "2020-01-16"
+   },
+   {
+      "AllVisits" : 0,
+      "RespVisits" : 0,
+      "AdmissionDate" : "2020-01-17"
+   },
+   {
+      "AdmissionDate" : "2020-01-18",
+      "AllVisits" : 0,
+      "RespVisits" : 0
+   },
+   {
+      "AdmissionDate" : "2020-01-19",
+      "AllVisits" : 0,
+      "RespVisits" : 0
    },
    {
       "AdmissionDate" : "2020-01-20",
@@ -600,24 +600,24 @@
       "RespVisits" : 0
    },
    {
-      "AllVisits" : 0,
       "AdmissionDate" : "2020-01-21",
+      "RespVisits" : 0,
+      "AllVisits" : 0
+   },
+   {
+      "AdmissionDate" : "2020-01-22",
+      "AllVisits" : 0,
       "RespVisits" : 0
    },
    {
       "RespVisits" : 0,
       "AllVisits" : 0,
-      "AdmissionDate" : "2020-01-22"
+      "AdmissionDate" : "2020-01-23"
    },
    {
+      "RespVisits" : 0,
       "AllVisits" : 0,
-      "AdmissionDate" : "2020-01-23",
-      "RespVisits" : 0
-   },
-   {
-      "AllVisits" : 0,
-      "AdmissionDate" : "2020-01-24",
-      "RespVisits" : 0
+      "AdmissionDate" : "2020-01-24"
    },
    {
       "AllVisits" : 0,
@@ -626,53 +626,53 @@
    },
    {
       "AllVisits" : 0,
-      "AdmissionDate" : "2020-01-26",
-      "RespVisits" : 0
-   },
-   {
       "RespVisits" : 0,
-      "AllVisits" : 0,
-      "AdmissionDate" : "2020-01-27"
+      "AdmissionDate" : "2020-01-26"
    },
    {
-      "AllVisits" : 0,
+      "AdmissionDate" : "2020-01-27",
+      "RespVisits" : 0,
+      "AllVisits" : 0
+   },
+   {
       "AdmissionDate" : "2020-01-28",
+      "AllVisits" : 0,
+      "RespVisits" : 0
+   },
+   {
+      "AdmissionDate" : "2020-01-29",
+      "AllVisits" : 0,
       "RespVisits" : 0
    },
    {
       "AllVisits" : 0,
       "RespVisits" : 0,
-      "AdmissionDate" : "2020-01-29"
-   },
-   {
-      "AdmissionDate" : "2020-01-30",
-      "AllVisits" : 0,
-      "RespVisits" : 0
+      "AdmissionDate" : "2020-01-30"
    },
    {
       "AdmissionDate" : "2020-01-31",
-      "AllVisits" : 0,
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
-      "RespVisits" : 0,
       "AllVisits" : 0,
+      "RespVisits" : 0,
       "AdmissionDate" : "2020-02-01"
    },
    {
-      "AdmissionDate" : "2020-02-02",
+      "RespVisits" : 0,
       "AllVisits" : 0,
-      "RespVisits" : 0
+      "AdmissionDate" : "2020-02-02"
+   },
+   {
+      "RespVisits" : 0,
+      "AllVisits" : 0,
+      "AdmissionDate" : "2020-02-03"
    },
    {
       "AllVisits" : 0,
       "RespVisits" : 0,
-      "AdmissionDate" : "2020-02-03"
-   },
-   {
-      "AdmissionDate" : "2020-02-04",
-      "AllVisits" : 0,
-      "RespVisits" : 0
+      "AdmissionDate" : "2020-02-04"
    },
    {
       "AllVisits" : 0,
@@ -680,74 +680,74 @@
       "AdmissionDate" : "2020-02-05"
    },
    {
+      "RespVisits" : 0,
       "AllVisits" : 0,
-      "AdmissionDate" : "2020-02-06",
-      "RespVisits" : 0
+      "AdmissionDate" : "2020-02-06"
    },
    {
-      "AdmissionDate" : "2020-02-07",
+      "RespVisits" : 0,
       "AllVisits" : 0,
-      "RespVisits" : 0
+      "AdmissionDate" : "2020-02-07"
    },
    {
       "AdmissionDate" : "2020-02-08",
+      "RespVisits" : 0,
+      "AllVisits" : 0
+   },
+   {
+      "AdmissionDate" : "2020-02-09",
       "AllVisits" : 0,
       "RespVisits" : 0
    },
    {
-      "AllVisits" : 0,
+      "AdmissionDate" : "2020-02-10",
       "RespVisits" : 0,
-      "AdmissionDate" : "2020-02-09"
+      "AllVisits" : 0
+   },
+   {
+      "AdmissionDate" : "2020-02-11",
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
       "RespVisits" : 0,
       "AllVisits" : 0,
-      "AdmissionDate" : "2020-02-10"
+      "AdmissionDate" : "2020-02-12"
    },
    {
       "RespVisits" : 0,
       "AllVisits" : 0,
-      "AdmissionDate" : "2020-02-11"
+      "AdmissionDate" : "2020-02-13"
    },
    {
-      "AdmissionDate" : "2020-02-12",
-      "AllVisits" : 0,
-      "RespVisits" : 0
-   },
-   {
-      "AdmissionDate" : "2020-02-13",
-      "AllVisits" : 0,
-      "RespVisits" : 0
-   },
-   {
-      "AllVisits" : 0,
       "AdmissionDate" : "2020-02-14",
-      "RespVisits" : 0
-   },
-   {
-      "AllVisits" : 0,
-      "AdmissionDate" : "2020-02-15",
-      "RespVisits" : 0
-   },
-   {
-      "AdmissionDate" : "2020-02-16",
-      "AllVisits" : 0,
-      "RespVisits" : 0
-   },
-   {
-      "AllVisits" : 0,
-      "AdmissionDate" : "2020-02-17",
-      "RespVisits" : 0
-   },
-   {
-      "AllVisits" : 0,
-      "AdmissionDate" : "2020-02-18",
-      "RespVisits" : 0
-   },
-   {
-      "AllVisits" : 0,
       "RespVisits" : 0,
-      "AdmissionDate" : "2020-02-19"
+      "AllVisits" : 0
+   },
+   {
+      "AdmissionDate" : "2020-02-15",
+      "AllVisits" : 0,
+      "RespVisits" : 0
+   },
+   {
+      "RespVisits" : 0,
+      "AllVisits" : 0,
+      "AdmissionDate" : "2020-02-16"
+   },
+   {
+      "AdmissionDate" : "2020-02-17",
+      "AllVisits" : 0,
+      "RespVisits" : 0
+   },
+   {
+      "AdmissionDate" : "2020-02-18",
+      "AllVisits" : 0,
+      "RespVisits" : 0
+   },
+   {
+      "AdmissionDate" : "2020-02-19",
+      "AllVisits" : 0,
+      "RespVisits" : 0
    },
    {
       "AllVisits" : 0,
@@ -756,53 +756,53 @@
    },
    {
       "AdmissionDate" : "2020-02-21",
-      "AllVisits" : 0,
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
-      "AllVisits" : 0,
       "AdmissionDate" : "2020-02-22",
+      "RespVisits" : 0,
+      "AllVisits" : 0
+   },
+   {
+      "AdmissionDate" : "2020-02-23",
+      "AllVisits" : 0,
       "RespVisits" : 0
    },
    {
-      "RespVisits" : 0,
-      "AllVisits" : 0,
-      "AdmissionDate" : "2020-02-23"
-   },
-   {
-      "AllVisits" : 0,
       "AdmissionDate" : "2020-02-24",
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
-      "AllVisits" : 0,
       "AdmissionDate" : "2020-02-25",
+      "AllVisits" : 0,
       "RespVisits" : 0
+   },
+   {
+      "AdmissionDate" : "2020-02-26",
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
       "AllVisits" : 0,
       "RespVisits" : 0,
-      "AdmissionDate" : "2020-02-26"
+      "AdmissionDate" : "2020-02-27"
    },
    {
       "AllVisits" : 0,
-      "AdmissionDate" : "2020-02-27",
-      "RespVisits" : 0
-   },
-   {
       "RespVisits" : 0,
-      "AllVisits" : 0,
       "AdmissionDate" : "2020-02-28"
    },
    {
       "AllVisits" : 0,
-      "AdmissionDate" : "2020-02-29",
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AdmissionDate" : "2020-02-29"
    },
    {
-      "AllVisits" : 0,
+      "AdmissionDate" : "2020-03-01",
       "RespVisits" : 0,
-      "AdmissionDate" : "2020-03-01"
+      "AllVisits" : 0
    },
    {
       "AdmissionDate" : "2020-03-02",
@@ -810,9 +810,9 @@
       "RespVisits" : 0
    },
    {
-      "AdmissionDate" : "2020-03-03",
       "AllVisits" : 0,
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AdmissionDate" : "2020-03-03"
    },
    {
       "RespVisits" : 0,
@@ -825,43 +825,43 @@
       "RespVisits" : 0
    },
    {
-      "AllVisits" : 0,
-      "RespVisits" : 0,
-      "AdmissionDate" : "2020-03-06"
-   },
-   {
-      "AdmissionDate" : "2020-03-07",
+      "AdmissionDate" : "2020-03-06",
       "AllVisits" : 0,
       "RespVisits" : 0
    },
    {
-      "AllVisits" : 0,
       "RespVisits" : 0,
-      "AdmissionDate" : "2020-03-08"
-   },
-   {
       "AllVisits" : 0,
-      "AdmissionDate" : "2020-03-09",
-      "RespVisits" : 0
+      "AdmissionDate" : "2020-03-07"
    },
    {
-      "AdmissionDate" : "2020-03-10",
+      "AdmissionDate" : "2020-03-08",
       "AllVisits" : 0,
       "RespVisits" : 0
    },
    {
-      "AdmissionDate" : "2020-03-11",
-      "AllVisits" : 0,
-      "RespVisits" : 0
-   },
-   {
-      "AllVisits" : 0,
       "RespVisits" : 0,
-      "AdmissionDate" : "2020-03-12"
+      "AllVisits" : 0,
+      "AdmissionDate" : "2020-03-09"
    },
    {
       "RespVisits" : 0,
       "AllVisits" : 0,
+      "AdmissionDate" : "2020-03-10"
+   },
+   {
+      "AllVisits" : 0,
+      "RespVisits" : 0,
+      "AdmissionDate" : "2020-03-11"
+   },
+   {
+      "AdmissionDate" : "2020-03-12",
+      "RespVisits" : 0,
+      "AllVisits" : 0
+   },
+   {
+      "AllVisits" : 0,
+      "RespVisits" : 0,
       "AdmissionDate" : "2020-03-13"
    },
    {
@@ -870,24 +870,24 @@
       "AdmissionDate" : "2020-03-14"
    },
    {
-      "AdmissionDate" : "2020-03-15",
+      "RespVisits" : 0,
       "AllVisits" : 0,
-      "RespVisits" : 0
-   },
-   {
-      "AdmissionDate" : "2020-03-16",
-      "AllVisits" : 0,
-      "RespVisits" : 0
+      "AdmissionDate" : "2020-03-15"
    },
    {
       "AllVisits" : 0,
+      "RespVisits" : 0,
+      "AdmissionDate" : "2020-03-16"
+   },
+   {
       "AdmissionDate" : "2020-03-17",
+      "AllVisits" : 0,
       "RespVisits" : 0
    },
    {
-      "AllVisits" : 0,
       "AdmissionDate" : "2020-03-18",
-      "RespVisits" : 0
+      "RespVisits" : 0,
+      "AllVisits" : 0
    },
    {
       "AdmissionDate" : "2020-03-19",
@@ -895,8 +895,8 @@
       "RespVisits" : 0
    },
    {
+      "RespVisits" : 0,
       "AllVisits" : 0,
-      "AdmissionDate" : "2020-03-20",
-      "RespVisits" : 0
+      "AdmissionDate" : "2020-03-20"
    }
 ]

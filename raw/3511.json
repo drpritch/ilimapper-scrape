@@ -1,255 +1,255 @@
 [
    {
-      "PctRespMA7Days" : "5.397022",
       "RespVisits" : 87,
       "AdmissionDate" : "2019-09-23",
+      "PctResp" : "5.397",
       "AllVisits" : 1612,
-      "PctResp" : "5.397"
+      "PctRespMA7Days" : "5.397022"
    },
    {
-      "PctRespMA7Days" : "5.170732",
-      "RespVisits" : 72,
-      "AdmissionDate" : "2019-09-24",
       "PctResp" : "4.921",
-      "AllVisits" : 1463
+      "AllVisits" : 1463,
+      "PctRespMA7Days" : "5.170732",
+      "AdmissionDate" : "2019-09-24",
+      "RespVisits" : 72
    },
    {
-      "AllVisits" : 1441,
-      "PctResp" : "6.037",
-      "RespVisits" : 87,
       "AdmissionDate" : "2019-09-25",
-      "PctRespMA7Days" : "5.447298"
+      "RespVisits" : 87,
+      "PctRespMA7Days" : "5.447298",
+      "AllVisits" : 1441,
+      "PctResp" : "6.037"
    },
    {
-      "PctRespMA7Days" : "5.505506",
-      "RespVisits" : 84,
       "AdmissionDate" : "2019-09-26",
-      "AllVisits" : 1478,
-      "PctResp" : "5.683"
+      "RespVisits" : 84,
+      "PctRespMA7Days" : "5.505506",
+      "PctResp" : "5.683",
+      "AllVisits" : 1478
    },
    {
-      "PctRespMA7Days" : "5.482958",
       "PctResp" : "5.388",
       "AllVisits" : 1429,
-      "AdmissionDate" : "2019-09-27",
-      "RespVisits" : 77
+      "PctRespMA7Days" : "5.482958",
+      "RespVisits" : 77,
+      "AdmissionDate" : "2019-09-27"
    },
    {
-      "PctRespMA7Days" : "5.552389",
-      "RespVisits" : 80,
       "AdmissionDate" : "2019-09-28",
+      "RespVisits" : 80,
+      "PctRespMA7Days" : "5.552389",
       "AllVisits" : 1348,
       "PctResp" : "5.935"
    },
    {
-      "PctRespMA7Days" : "5.626116",
-      "PctResp" : "6.121",
       "AllVisits" : 1307,
+      "PctResp" : "6.121",
+      "PctRespMA7Days" : "5.626116",
       "AdmissionDate" : "2019-09-29",
       "RespVisits" : 80
    },
    {
-      "PctResp" : "5.074",
       "AllVisits" : 1478,
-      "RespVisits" : 75,
+      "PctResp" : "5.074",
+      "PctRespMA7Days" : "5.581255",
       "AdmissionDate" : "2019-09-30",
-      "PctRespMA7Days" : "5.581255"
+      "RespVisits" : 75
    },
    {
-      "PctRespMA7Days" : "5.598299",
-      "AllVisits" : 1397,
-      "PctResp" : "5.011",
+      "RespVisits" : 70,
       "AdmissionDate" : "2019-10-01",
-      "RespVisits" : 70
+      "PctResp" : "5.011",
+      "AllVisits" : 1397,
+      "PctRespMA7Days" : "5.598299"
    },
    {
+      "AdmissionDate" : "2019-10-02",
+      "RespVisits" : 68,
       "PctRespMA7Days" : "5.436221",
       "PctResp" : "4.906",
-      "AllVisits" : 1386,
-      "AdmissionDate" : "2019-10-02",
-      "RespVisits" : 68
+      "AllVisits" : 1386
    },
    {
-      "PctResp" : "4.814",
       "AllVisits" : 1371,
-      "AdmissionDate" : "2019-10-03",
+      "PctResp" : "4.814",
+      "PctRespMA7Days" : "5.310828",
       "RespVisits" : 66,
-      "PctRespMA7Days" : "5.310828"
+      "AdmissionDate" : "2019-10-03"
    },
    {
-      "AdmissionDate" : "2019-10-04",
-      "RespVisits" : 73,
+      "PctRespMA7Days" : "5.277262",
       "AllVisits" : 1415,
       "PctResp" : "5.159",
-      "PctRespMA7Days" : "5.277262"
+      "RespVisits" : 73,
+      "AdmissionDate" : "2019-10-04"
    },
    {
-      "RespVisits" : 83,
-      "AdmissionDate" : "2019-10-05",
       "PctResp" : "6.520",
       "AllVisits" : 1273,
-      "PctRespMA7Days" : "5.349538"
+      "PctRespMA7Days" : "5.349538",
+      "RespVisits" : 83,
+      "AdmissionDate" : "2019-10-05"
    },
    {
-      "PctRespMA7Days" : "5.515686",
-      "AllVisits" : 1434,
       "PctResp" : "7.183",
-      "AdmissionDate" : "2019-10-06",
-      "RespVisits" : 103
+      "AllVisits" : 1434,
+      "PctRespMA7Days" : "5.515686",
+      "RespVisits" : 103,
+      "AdmissionDate" : "2019-10-06"
    },
    {
+      "RespVisits" : 85,
+      "AdmissionDate" : "2019-10-07",
       "PctResp" : "5.370",
       "AllVisits" : 1583,
-      "AdmissionDate" : "2019-10-07",
-      "RespVisits" : 85,
       "PctRespMA7Days" : "5.558373"
    },
    {
-      "AdmissionDate" : "2019-10-08",
-      "RespVisits" : 77,
       "PctResp" : "5.164",
       "AllVisits" : 1491,
-      "PctRespMA7Days" : "5.576208"
+      "PctRespMA7Days" : "5.576208",
+      "AdmissionDate" : "2019-10-08",
+      "RespVisits" : 77
    },
    {
       "PctRespMA7Days" : "5.691138",
       "PctResp" : "5.730",
       "AllVisits" : 1431,
-      "AdmissionDate" : "2019-10-09",
-      "RespVisits" : 82
+      "RespVisits" : 82,
+      "AdmissionDate" : "2019-10-09"
    },
    {
-      "PctResp" : "5.587",
-      "AllVisits" : 1414,
-      "RespVisits" : 79,
       "AdmissionDate" : "2019-10-10",
+      "RespVisits" : 79,
+      "AllVisits" : 1414,
+      "PctResp" : "5.587",
       "PctRespMA7Days" : "5.796235"
    },
    {
-      "RespVisits" : 79,
-      "AdmissionDate" : "2019-10-11",
       "AllVisits" : 1380,
       "PctResp" : "5.725",
-      "PctRespMA7Days" : "5.876474"
+      "PctRespMA7Days" : "5.876474",
+      "AdmissionDate" : "2019-10-11",
+      "RespVisits" : 79
    },
    {
       "AdmissionDate" : "2019-10-12",
       "RespVisits" : 93,
-      "AllVisits" : 1317,
+      "PctRespMA7Days" : "5.950249",
       "PctResp" : "7.062",
-      "PctRespMA7Days" : "5.950249"
+      "AllVisits" : 1317
    },
    {
-      "AllVisits" : 1354,
+      "PctRespMA7Days" : "5.897693",
       "PctResp" : "6.869",
+      "AllVisits" : 1354,
       "RespVisits" : 93,
-      "AdmissionDate" : "2019-10-13",
-      "PctRespMA7Days" : "5.897693"
+      "AdmissionDate" : "2019-10-13"
    },
    {
-      "PctResp" : "9.810",
       "AllVisits" : 1366,
+      "PctResp" : "9.810",
+      "PctRespMA7Days" : "6.531324",
       "RespVisits" : 134,
-      "AdmissionDate" : "2019-10-14",
-      "PctRespMA7Days" : "6.531324"
+      "AdmissionDate" : "2019-10-14"
    },
    {
-      "PctRespMA7Days" : "6.562054",
       "RespVisits" : 84,
       "AdmissionDate" : "2019-10-15",
+      "PctResp" : "5.412",
       "AllVisits" : 1552,
-      "PctResp" : "5.412"
+      "PctRespMA7Days" : "6.562054"
    },
    {
-      "RespVisits" : 91,
-      "AdmissionDate" : "2019-10-16",
-      "AllVisits" : 1426,
+      "PctRespMA7Days" : "6.657152",
       "PctResp" : "6.381",
-      "PctRespMA7Days" : "6.657152"
+      "AllVisits" : 1426,
+      "AdmissionDate" : "2019-10-16",
+      "RespVisits" : 91
    },
    {
       "AllVisits" : 1313,
       "PctResp" : "4.874",
-      "RespVisits" : 64,
+      "PctRespMA7Days" : "6.571899",
       "AdmissionDate" : "2019-10-17",
-      "PctRespMA7Days" : "6.571899"
+      "RespVisits" : 64
    },
    {
-      "PctRespMA7Days" : "6.473330",
-      "AllVisits" : 1327,
-      "PctResp" : "4.974",
+      "RespVisits" : 66,
       "AdmissionDate" : "2019-10-18",
-      "RespVisits" : 66
+      "PctRespMA7Days" : "6.473330",
+      "PctResp" : "4.974",
+      "AllVisits" : 1327
    },
    {
       "PctRespMA7Days" : "6.369493",
       "AllVisits" : 1286,
       "PctResp" : "6.299",
-      "AdmissionDate" : "2019-10-19",
-      "RespVisits" : 81
+      "RespVisits" : 81,
+      "AdmissionDate" : "2019-10-19"
    },
    {
-      "AdmissionDate" : "2019-10-20",
-      "RespVisits" : 88,
       "AllVisits" : 1328,
       "PctResp" : "6.627",
-      "PctRespMA7Days" : "6.334653"
+      "PctRespMA7Days" : "6.334653",
+      "AdmissionDate" : "2019-10-20",
+      "RespVisits" : 88
    },
    {
-      "PctRespMA7Days" : "5.792652",
-      "AdmissionDate" : "2019-10-21",
-      "RespVisits" : 92,
+      "PctResp" : "5.978",
       "AllVisits" : 1539,
-      "PctResp" : "5.978"
+      "PctRespMA7Days" : "5.792652",
+      "RespVisits" : 92,
+      "AdmissionDate" : "2019-10-21"
    },
    {
+      "PctRespMA7Days" : "5.923560",
       "PctResp" : "6.250",
       "AllVisits" : 1488,
       "AdmissionDate" : "2019-10-22",
-      "RespVisits" : 93,
-      "PctRespMA7Days" : "5.923560"
+      "RespVisits" : 93
    },
    {
-      "RespVisits" : 81,
-      "AdmissionDate" : "2019-10-23",
-      "PctResp" : "5.559",
       "AllVisits" : 1457,
-      "PctRespMA7Days" : "5.802013"
+      "PctResp" : "5.559",
+      "PctRespMA7Days" : "5.802013",
+      "AdmissionDate" : "2019-10-23",
+      "RespVisits" : 81
    },
    {
-      "AdmissionDate" : "2019-10-24",
-      "RespVisits" : 87,
       "PctResp" : "6.144",
       "AllVisits" : 1416,
-      "PctRespMA7Days" : "5.975003"
+      "PctRespMA7Days" : "5.975003",
+      "RespVisits" : 87,
+      "AdmissionDate" : "2019-10-24"
    },
    {
       "PctRespMA7Days" : "6.077853",
-      "RespVisits" : 76,
-      "AdmissionDate" : "2019-10-25",
+      "PctResp" : "5.736",
       "AllVisits" : 1325,
-      "PctResp" : "5.736"
+      "RespVisits" : 76,
+      "AdmissionDate" : "2019-10-25"
    },
    {
+      "RespVisits" : 88,
+      "AdmissionDate" : "2019-10-26",
       "PctRespMA7Days" : "6.201948",
       "PctResp" : "7.321",
-      "AllVisits" : 1202,
-      "RespVisits" : 88,
-      "AdmissionDate" : "2019-10-26"
+      "AllVisits" : 1202
    },
    {
-      "PctRespMA7Days" : "6.420513",
-      "AllVisits" : 1323,
-      "PctResp" : "8.239",
       "RespVisits" : 109,
-      "AdmissionDate" : "2019-10-27"
+      "AdmissionDate" : "2019-10-27",
+      "PctResp" : "8.239",
+      "AllVisits" : 1323,
+      "PctRespMA7Days" : "6.420513"
    },
    {
       "PctRespMA7Days" : "6.402470",
       "AllVisits" : 1504,
       "PctResp" : "5.851",
-      "RespVisits" : 88,
-      "AdmissionDate" : "2019-10-28"
+      "AdmissionDate" : "2019-10-28",
+      "RespVisits" : 88
    },
    {
       "AdmissionDate" : "2019-10-29",
@@ -259,58 +259,58 @@
       "PctRespMA7Days" : "6.363825"
    },
    {
-      "RespVisits" : 84,
       "AdmissionDate" : "2019-10-30",
-      "AllVisits" : 1423,
+      "RespVisits" : 84,
       "PctResp" : "5.903",
+      "AllVisits" : 1423,
       "PctRespMA7Days" : "6.417445"
    },
    {
       "PctRespMA7Days" : "6.377148",
-      "AdmissionDate" : "2019-10-31",
-      "RespVisits" : 74,
+      "AllVisits" : 1273,
       "PctResp" : "5.813",
-      "AllVisits" : 1273
+      "RespVisits" : 74,
+      "AdmissionDate" : "2019-10-31"
    },
    {
-      "PctResp" : "5.842",
-      "AllVisits" : 1318,
       "RespVisits" : 77,
       "AdmissionDate" : "2019-11-01",
-      "PctRespMA7Days" : "6.392405"
+      "PctRespMA7Days" : "6.392405",
+      "AllVisits" : 1318,
+      "PctResp" : "5.842"
    },
    {
       "PctRespMA7Days" : "6.413476",
-      "AdmissionDate" : "2019-11-02",
-      "RespVisits" : 95,
+      "PctResp" : "7.422",
       "AllVisits" : 1280,
-      "PctResp" : "7.422"
+      "RespVisits" : 95,
+      "AdmissionDate" : "2019-11-02"
    },
    {
-      "AdmissionDate" : "2019-11-03",
-      "RespVisits" : 98,
-      "PctResp" : "7.254",
+      "PctRespMA7Days" : "6.279992",
       "AllVisits" : 1351,
-      "PctRespMA7Days" : "6.279992"
+      "PctResp" : "7.254",
+      "RespVisits" : 98,
+      "AdmissionDate" : "2019-11-03"
    },
    {
-      "AdmissionDate" : "2019-11-04",
-      "RespVisits" : 87,
-      "PctResp" : "5.926",
       "AllVisits" : 1468,
-      "PctRespMA7Days" : "6.293194"
+      "PctResp" : "5.926",
+      "PctRespMA7Days" : "6.293194",
+      "AdmissionDate" : "2019-11-04",
+      "RespVisits" : 87
    },
    {
-      "AdmissionDate" : "2019-11-05",
       "RespVisits" : 92,
-      "AllVisits" : 1390,
+      "AdmissionDate" : "2019-11-05",
       "PctResp" : "6.619",
+      "AllVisits" : 1390,
       "PctRespMA7Days" : "6.387457"
    },
    {
-      "PctRespMA7Days" : "6.345339",
-      "RespVisits" : 76,
       "AdmissionDate" : "2019-11-06",
+      "RespVisits" : 76,
+      "PctRespMA7Days" : "6.345339",
       "PctResp" : "5.588",
       "AllVisits" : 1360
    },
@@ -322,382 +322,382 @@
       "PctRespMA7Days" : "6.232891"
    },
    {
-      "PctRespMA7Days" : "6.289635",
-      "AdmissionDate" : "2019-11-08",
       "RespVisits" : 90,
-      "PctResp" : "6.254",
-      "AllVisits" : 1439
+      "AdmissionDate" : "2019-11-08",
+      "PctRespMA7Days" : "6.289635",
+      "AllVisits" : 1439,
+      "PctResp" : "6.254"
    },
    {
-      "PctResp" : "8.466",
-      "AllVisits" : 1252,
       "AdmissionDate" : "2019-11-09",
       "RespVisits" : 106,
+      "PctResp" : "8.466",
+      "AllVisits" : 1252,
       "PctRespMA7Days" : "6.422688"
    },
    {
-      "PctRespMA7Days" : "6.399246",
+      "AdmissionDate" : "2019-11-10",
+      "RespVisits" : 93,
       "PctResp" : "7.110",
       "AllVisits" : 1308,
-      "AdmissionDate" : "2019-11-10",
+      "PctRespMA7Days" : "6.399246"
+   },
+   {
+      "PctRespMA7Days" : "6.665962",
+      "PctResp" : "7.720",
+      "AllVisits" : 1386,
+      "AdmissionDate" : "2019-11-11",
+      "RespVisits" : 107
+   },
+   {
+      "PctResp" : "5.291",
+      "AllVisits" : 1342,
+      "PctRespMA7Days" : "6.476959",
+      "RespVisits" : 71,
+      "AdmissionDate" : "2019-11-12"
+   },
+   {
+      "AdmissionDate" : "2019-11-13",
+      "RespVisits" : 80,
+      "PctRespMA7Days" : "6.536783",
+      "AllVisits" : 1335,
+      "PctResp" : "5.993"
+   },
+   {
+      "PctRespMA7Days" : "6.807062",
+      "AllVisits" : 1340,
+      "PctResp" : "6.940",
+      "AdmissionDate" : "2019-11-14",
       "RespVisits" : 93
    },
    {
-      "PctResp" : "7.720",
-      "AllVisits" : 1386,
-      "RespVisits" : 107,
-      "AdmissionDate" : "2019-11-11",
-      "PctRespMA7Days" : "6.665962"
-   },
-   {
-      "RespVisits" : 71,
-      "AdmissionDate" : "2019-11-12",
-      "AllVisits" : 1342,
-      "PctResp" : "5.291",
-      "PctRespMA7Days" : "6.476959"
-   },
-   {
-      "AllVisits" : 1335,
-      "PctResp" : "5.993",
-      "AdmissionDate" : "2019-11-13",
-      "RespVisits" : 80,
-      "PctRespMA7Days" : "6.536783"
-   },
-   {
-      "RespVisits" : 93,
-      "AdmissionDate" : "2019-11-14",
-      "AllVisits" : 1340,
-      "PctResp" : "6.940",
-      "PctRespMA7Days" : "6.807062"
-   },
-   {
-      "PctResp" : "6.809",
-      "AllVisits" : 1263,
       "RespVisits" : 86,
       "AdmissionDate" : "2019-11-15",
-      "PctRespMA7Days" : "6.893562"
+      "PctRespMA7Days" : "6.893562",
+      "AllVisits" : 1263,
+      "PctResp" : "6.809"
    },
    {
-      "PctRespMA7Days" : "6.764961",
       "AllVisits" : 1250,
       "PctResp" : "7.520",
-      "RespVisits" : 94,
-      "AdmissionDate" : "2019-11-16"
+      "PctRespMA7Days" : "6.764961",
+      "AdmissionDate" : "2019-11-16",
+      "RespVisits" : 94
    },
    {
-      "AllVisits" : 1322,
-      "PctResp" : "10.061",
       "RespVisits" : 133,
       "AdmissionDate" : "2019-11-17",
+      "PctResp" : "10.061",
+      "AllVisits" : 1322,
       "PctRespMA7Days" : "7.187703"
    },
    {
-      "PctRespMA7Days" : "7.053942",
       "RespVisits" : 106,
       "AdmissionDate" : "2019-11-18",
+      "PctRespMA7Days" : "7.053942",
       "AllVisits" : 1547,
       "PctResp" : "6.852"
    },
    {
-      "PctRespMA7Days" : "7.146638",
-      "AdmissionDate" : "2019-11-19",
       "RespVisits" : 83,
+      "AdmissionDate" : "2019-11-19",
       "AllVisits" : 1388,
-      "PctResp" : "5.980"
+      "PctResp" : "5.980",
+      "PctRespMA7Days" : "7.146638"
    },
    {
-      "PctRespMA7Days" : "7.008655",
-      "AdmissionDate" : "2019-11-20",
-      "RespVisits" : 69,
+      "PctResp" : "5.059",
       "AllVisits" : 1364,
-      "PctResp" : "5.059"
+      "PctRespMA7Days" : "7.008655",
+      "RespVisits" : 69,
+      "AdmissionDate" : "2019-11-20"
    },
    {
-      "PctRespMA7Days" : "6.859852",
+      "AdmissionDate" : "2019-11-21",
+      "RespVisits" : 80,
       "AllVisits" : 1356,
       "PctResp" : "5.900",
-      "AdmissionDate" : "2019-11-21",
-      "RespVisits" : 80
+      "PctRespMA7Days" : "6.859852"
    },
    {
+      "AdmissionDate" : "2019-11-22",
+      "RespVisits" : 82,
       "PctRespMA7Days" : "6.730469",
       "AllVisits" : 1386,
-      "PctResp" : "5.916",
-      "AdmissionDate" : "2019-11-22",
-      "RespVisits" : 82
+      "PctResp" : "5.916"
    },
    {
+      "PctRespMA7Days" : "6.510713",
       "PctResp" : "5.855",
       "AllVisits" : 1298,
-      "AdmissionDate" : "2019-11-23",
       "RespVisits" : 76,
-      "PctRespMA7Days" : "6.510713"
+      "AdmissionDate" : "2019-11-23"
    },
    {
-      "RespVisits" : 108,
-      "AdmissionDate" : "2019-11-24",
+      "PctRespMA7Days" : "6.259716",
       "PctResp" : "8.244",
       "AllVisits" : 1310,
-      "PctRespMA7Days" : "6.259716"
+      "AdmissionDate" : "2019-11-24",
+      "RespVisits" : 108
    },
    {
-      "AdmissionDate" : "2019-11-25",
       "RespVisits" : 105,
+      "AdmissionDate" : "2019-11-25",
       "PctResp" : "6.641",
       "AllVisits" : 1581,
       "PctRespMA7Days" : "6.227409"
    },
    {
-      "PctRespMA7Days" : "6.293706",
-      "RespVisits" : 92,
       "AdmissionDate" : "2019-11-26",
+      "RespVisits" : 92,
+      "PctResp" : "6.438",
       "AllVisits" : 1429,
-      "PctResp" : "6.438"
+      "PctRespMA7Days" : "6.293706"
    },
    {
+      "PctRespMA7Days" : "6.314063",
       "PctResp" : "5.229",
       "AllVisits" : 1396,
-      "RespVisits" : 73,
       "AdmissionDate" : "2019-11-27",
-      "PctRespMA7Days" : "6.314063"
+      "RespVisits" : 73
    },
    {
       "PctRespMA7Days" : "6.378412",
       "AllVisits" : 1383,
       "PctResp" : "6.363",
-      "RespVisits" : 88,
-      "AdmissionDate" : "2019-11-28"
+      "AdmissionDate" : "2019-11-28",
+      "RespVisits" : 88
    },
    {
-      "AllVisits" : 1277,
-      "PctResp" : "6.578",
       "RespVisits" : 84,
       "AdmissionDate" : "2019-11-29",
-      "PctRespMA7Days" : "6.470953"
+      "PctRespMA7Days" : "6.470953",
+      "PctResp" : "6.578",
+      "AllVisits" : 1277
    },
    {
       "PctResp" : "9.249",
       "AllVisits" : 1211,
-      "AdmissionDate" : "2019-11-30",
+      "PctRespMA7Days" : "6.905184",
       "RespVisits" : 112,
-      "PctRespMA7Days" : "6.905184"
+      "AdmissionDate" : "2019-11-30"
    },
    {
-      "PctRespMA7Days" : "6.954235",
-      "RespVisits" : 107,
       "AdmissionDate" : "2019-12-01",
+      "RespVisits" : 107,
       "AllVisits" : 1228,
-      "PctResp" : "8.713"
+      "PctResp" : "8.713",
+      "PctRespMA7Days" : "6.954235"
    },
    {
-      "PctRespMA7Days" : "7.101033",
-      "PctResp" : "7.556",
       "AllVisits" : 1469,
-      "AdmissionDate" : "2019-12-02",
-      "RespVisits" : 111
+      "PctResp" : "7.556",
+      "PctRespMA7Days" : "7.101033",
+      "RespVisits" : 111,
+      "AdmissionDate" : "2019-12-02"
    },
    {
       "PctRespMA7Days" : "7.284698",
-      "PctResp" : "7.639",
       "AllVisits" : 1453,
+      "PctResp" : "7.639",
       "RespVisits" : 111,
       "AdmissionDate" : "2019-12-03"
    },
    {
-      "AdmissionDate" : "2019-12-04",
-      "RespVisits" : 86,
-      "AllVisits" : 1400,
+      "PctRespMA7Days" : "7.419595",
       "PctResp" : "6.143",
-      "PctRespMA7Days" : "7.419595"
+      "AllVisits" : 1400,
+      "AdmissionDate" : "2019-12-04",
+      "RespVisits" : 86
    },
    {
-      "PctResp" : "7.214",
-      "AllVisits" : 1414,
       "AdmissionDate" : "2019-12-05",
       "RespVisits" : 102,
-      "PctRespMA7Days" : "7.543377"
+      "PctRespMA7Days" : "7.543377",
+      "PctResp" : "7.214",
+      "AllVisits" : 1414
    },
    {
-      "PctRespMA7Days" : "7.659352",
-      "PctResp" : "7.455",
-      "AllVisits" : 1395,
       "AdmissionDate" : "2019-12-06",
-      "RespVisits" : 104
+      "RespVisits" : 104,
+      "PctRespMA7Days" : "7.659352",
+      "AllVisits" : 1395,
+      "PctResp" : "7.455"
    },
    {
+      "AllVisits" : 1246,
+      "PctResp" : "8.266",
       "PctRespMA7Days" : "7.537741",
       "AdmissionDate" : "2019-12-07",
-      "RespVisits" : 103,
-      "AllVisits" : 1246,
-      "PctResp" : "8.266"
+      "RespVisits" : 103
    },
    {
+      "AdmissionDate" : "2019-12-08",
+      "RespVisits" : 134,
       "PctRespMA7Days" : "7.731906",
       "PctResp" : "10.030",
-      "AllVisits" : 1336,
-      "RespVisits" : 134,
-      "AdmissionDate" : "2019-12-08"
+      "AllVisits" : 1336
    },
    {
-      "AdmissionDate" : "2019-12-09",
-      "RespVisits" : 120,
-      "AllVisits" : 1564,
       "PctResp" : "7.673",
-      "PctRespMA7Days" : "7.748777"
+      "AllVisits" : 1564,
+      "PctRespMA7Days" : "7.748777",
+      "AdmissionDate" : "2019-12-09",
+      "RespVisits" : 120
    },
    {
       "PctRespMA7Days" : "7.675013",
-      "AdmissionDate" : "2019-12-10",
-      "RespVisits" : 102,
       "PctResp" : "7.133",
-      "AllVisits" : 1430
+      "AllVisits" : 1430,
+      "AdmissionDate" : "2019-12-10",
+      "RespVisits" : 102
    },
    {
       "AdmissionDate" : "2019-12-11",
       "RespVisits" : 110,
+      "PctRespMA7Days" : "7.936508",
       "PctResp" : "7.971",
-      "AllVisits" : 1380,
-      "PctRespMA7Days" : "7.936508"
+      "AllVisits" : 1380
    },
    {
+      "PctResp" : "7.779",
+      "AllVisits" : 1337,
       "PctRespMA7Days" : "8.020231",
       "AdmissionDate" : "2019-12-12",
-      "RespVisits" : 104,
-      "PctResp" : "7.779",
-      "AllVisits" : 1337
+      "RespVisits" : 104
    },
    {
       "RespVisits" : 97,
       "AdmissionDate" : "2019-12-13",
-      "PctResp" : "6.968",
+      "PctRespMA7Days" : "7.950439",
       "AllVisits" : 1392,
-      "PctRespMA7Days" : "7.950439"
+      "PctResp" : "6.968"
    },
    {
-      "RespVisits" : 141,
-      "AdmissionDate" : "2019-12-14",
       "AllVisits" : 1354,
       "PctResp" : "10.414",
-      "PctRespMA7Days" : "8.250791"
+      "PctRespMA7Days" : "8.250791",
+      "AdmissionDate" : "2019-12-14",
+      "RespVisits" : 141
    },
    {
-      "AllVisits" : 1305,
-      "PctResp" : "9.272",
-      "AdmissionDate" : "2019-12-15",
       "RespVisits" : 121,
+      "AdmissionDate" : "2019-12-15",
+      "PctResp" : "9.272",
+      "AllVisits" : 1305,
       "PctRespMA7Days" : "8.143823"
    },
    {
       "PctRespMA7Days" : "8.414006",
-      "AllVisits" : 1512,
       "PctResp" : "9.392",
+      "AllVisits" : 1512,
       "RespVisits" : 142,
       "AdmissionDate" : "2019-12-16"
    },
    {
-      "PctRespMA7Days" : "8.867751",
-      "PctResp" : "10.154",
       "AllVisits" : 1497,
+      "PctResp" : "10.154",
+      "PctRespMA7Days" : "8.867751",
       "RespVisits" : 152,
       "AdmissionDate" : "2019-12-17"
    },
    {
       "RespVisits" : 102,
       "AdmissionDate" : "2019-12-18",
-      "AllVisits" : 1321,
       "PctResp" : "7.721",
+      "AllVisits" : 1321,
       "PctRespMA7Days" : "8.839267"
    },
    {
-      "AllVisits" : 1276,
-      "PctResp" : "7.994",
       "RespVisits" : 102,
       "AdmissionDate" : "2019-12-19",
-      "PctRespMA7Days" : "8.874392"
+      "PctRespMA7Days" : "8.874392",
+      "PctResp" : "7.994",
+      "AllVisits" : 1276
    },
    {
-      "RespVisits" : 115,
       "AdmissionDate" : "2019-12-20",
+      "RespVisits" : 115,
       "AllVisits" : 1286,
       "PctResp" : "8.942",
       "PctRespMA7Days" : "9.161344"
    },
    {
-      "PctRespMA7Days" : "9.126316",
-      "AdmissionDate" : "2019-12-21",
-      "RespVisits" : 133,
+      "PctResp" : "10.207",
       "AllVisits" : 1303,
-      "PctResp" : "10.207"
+      "PctRespMA7Days" : "9.126316",
+      "RespVisits" : 133,
+      "AdmissionDate" : "2019-12-21"
    },
    {
       "PctRespMA7Days" : "9.368487",
-      "AdmissionDate" : "2019-12-22",
-      "RespVisits" : 153,
       "AllVisits" : 1401,
-      "PctResp" : "10.921"
+      "PctResp" : "10.921",
+      "RespVisits" : 153,
+      "AdmissionDate" : "2019-12-22"
    },
    {
-      "AdmissionDate" : "2019-12-23",
-      "RespVisits" : 175,
       "AllVisits" : 1619,
       "PctResp" : "10.809",
-      "PctRespMA7Days" : "9.605277"
+      "PctRespMA7Days" : "9.605277",
+      "AdmissionDate" : "2019-12-23",
+      "RespVisits" : 175
    },
    {
-      "AllVisits" : 1274,
-      "PctResp" : "11.146",
-      "AdmissionDate" : "2019-12-24",
       "RespVisits" : 142,
-      "PctRespMA7Days" : "9.725738"
+      "AdmissionDate" : "2019-12-24",
+      "PctRespMA7Days" : "9.725738",
+      "PctResp" : "11.146",
+      "AllVisits" : 1274
    },
    {
       "AdmissionDate" : "2019-12-25",
       "RespVisits" : 163,
+      "PctRespMA7Days" : "10.484215",
       "PctResp" : "13.394",
-      "AllVisits" : 1217,
-      "PctRespMA7Days" : "10.484215"
+      "AllVisits" : 1217
    },
    {
-      "PctRespMA7Days" : "11.778100",
-      "PctResp" : "16.453",
       "AllVisits" : 1562,
-      "RespVisits" : 257,
-      "AdmissionDate" : "2019-12-26"
+      "PctResp" : "16.453",
+      "PctRespMA7Days" : "11.778100",
+      "AdmissionDate" : "2019-12-26",
+      "RespVisits" : 257
    },
    {
-      "PctRespMA7Days" : "12.106635",
-      "AdmissionDate" : "2019-12-27",
       "RespVisits" : 185,
+      "AdmissionDate" : "2019-12-27",
+      "PctRespMA7Days" : "12.106635",
       "PctResp" : "11.548",
       "AllVisits" : 1602
    },
    {
-      "AllVisits" : 1546,
+      "PctRespMA7Days" : "12.464534",
       "PctResp" : "12.872",
+      "AllVisits" : 1546,
       "RespVisits" : 199,
-      "AdmissionDate" : "2019-12-28",
-      "PctRespMA7Days" : "12.464534"
+      "AdmissionDate" : "2019-12-28"
    },
    {
       "PctRespMA7Days" : "12.671697",
-      "RespVisits" : 189,
-      "AdmissionDate" : "2019-12-29",
       "PctResp" : "12.451",
-      "AllVisits" : 1518
+      "AllVisits" : 1518,
+      "RespVisits" : 189,
+      "AdmissionDate" : "2019-12-29"
    },
    {
-      "AllVisits" : 1437,
       "PctResp" : "11.343",
+      "AllVisits" : 1437,
+      "PctRespMA7Days" : "12.780622",
       "RespVisits" : 163,
-      "AdmissionDate" : "2019-12-30",
-      "PctRespMA7Days" : "12.780622"
+      "AdmissionDate" : "2019-12-30"
    },
    {
       "AllVisits" : 1418,
       "PctResp" : "10.860",
+      "PctRespMA7Days" : "12.718447",
       "RespVisits" : 154,
-      "AdmissionDate" : "2019-12-31",
-      "PctRespMA7Days" : "12.718447"
+      "AdmissionDate" : "2019-12-31"
    },
    {
       "AdmissionDate" : "2020-01-01",
@@ -708,77 +708,77 @@
    },
    {
       "PctRespMA7Days" : "12.359974",
-      "RespVisits" : 190,
-      "AdmissionDate" : "2020-01-02",
+      "PctResp" : "11.391",
       "AllVisits" : 1668,
-      "PctResp" : "11.391"
+      "RespVisits" : 190,
+      "AdmissionDate" : "2020-01-02"
    },
    {
-      "PctRespMA7Days" : "12.030357",
-      "PctResp" : "9.443",
-      "AllVisits" : 1652,
+      "RespVisits" : 156,
       "AdmissionDate" : "2020-01-03",
-      "RespVisits" : 156
+      "PctRespMA7Days" : "12.030357",
+      "AllVisits" : 1652,
+      "PctResp" : "9.443"
    },
    {
-      "PctRespMA7Days" : "12.032490",
-      "PctResp" : "12.936",
-      "AllVisits" : 1461,
+      "AdmissionDate" : "2020-01-04",
       "RespVisits" : 189,
-      "AdmissionDate" : "2020-01-04"
+      "PctRespMA7Days" : "12.032490",
+      "AllVisits" : 1461,
+      "PctResp" : "12.936"
    },
    {
       "PctRespMA7Days" : "11.751218",
-      "AdmissionDate" : "2020-01-05",
-      "RespVisits" : 145,
+      "PctResp" : "10.379",
       "AllVisits" : 1397,
-      "PctResp" : "10.379"
+      "RespVisits" : 145,
+      "AdmissionDate" : "2020-01-05"
    },
    {
       "PctRespMA7Days" : "11.612048",
-      "PctResp" : "10.406",
       "AllVisits" : 1528,
-      "AdmissionDate" : "2020-01-06",
-      "RespVisits" : 159
+      "PctResp" : "10.406",
+      "RespVisits" : 159,
+      "AdmissionDate" : "2020-01-06"
    },
    {
-      "PctResp" : "8.184",
-      "AllVisits" : 1454,
-      "AdmissionDate" : "2020-01-07",
       "RespVisits" : 119,
+      "AdmissionDate" : "2020-01-07",
+      "AllVisits" : 1454,
+      "PctResp" : "8.184",
       "PctRespMA7Days" : "11.242213"
    },
    {
-      "PctRespMA7Days" : "9.875260",
-      "AllVisits" : 1422,
       "PctResp" : "6.118",
+      "AllVisits" : 1422,
+      "PctRespMA7Days" : "9.875260",
       "AdmissionDate" : "2020-01-08",
       "RespVisits" : 87
    },
    {
-      "PctResp" : "7.336",
-      "AllVisits" : 1295,
       "RespVisits" : 95,
       "AdmissionDate" : "2020-01-09",
+      "PctResp" : "7.336",
+      "AllVisits" : 1295,
       "PctRespMA7Days" : "9.305515"
    },
    {
-      "PctRespMA7Days" : "9.136446",
       "AllVisits" : 1425,
       "PctResp" : "8.281",
-      "AdmissionDate" : "2020-01-10",
-      "RespVisits" : 118
+      "PctRespMA7Days" : "9.136446",
+      "RespVisits" : 118,
+      "AdmissionDate" : "2020-01-10"
    },
    {
-      "PctRespMA7Days" : "8.386434",
       "AdmissionDate" : "2020-01-11",
       "RespVisits" : 93,
-      "PctResp" : "7.692",
-      "AllVisits" : 1209
+      "PctRespMA7Days" : "8.386434",
+      "AllVisits" : 1209,
+      "PctResp" : "7.692"
    },
    {
-      "AdmissionDate" : "2020-01-12",
       "RespVisits" : 98,
+      "AdmissionDate" : "2020-01-12",
       "PctResp" : "8.305",
       "AllVisits" : 1180,
       "PctRespMA7Days" : "8.083675"
@@ -791,233 +791,233 @@
       "RespVisits" : 95
    },
    {
-      "RespVisits" : 108,
-      "AdmissionDate" : "2020-01-14",
+      "PctRespMA7Days" : "7.393991",
       "PctResp" : "7.781",
       "AllVisits" : 1388,
-      "PctRespMA7Days" : "7.393991"
+      "RespVisits" : 108,
+      "AdmissionDate" : "2020-01-14"
    },
    {
-      "PctRespMA7Days" : "7.422213",
-      "RespVisits" : 80,
-      "AdmissionDate" : "2020-01-15",
+      "PctResp" : "6.192",
       "AllVisits" : 1292,
-      "PctResp" : "6.192"
+      "PctRespMA7Days" : "7.422213",
+      "AdmissionDate" : "2020-01-15",
+      "RespVisits" : 80
    },
    {
-      "AdmissionDate" : "2020-01-16",
-      "RespVisits" : 98,
       "AllVisits" : 1239,
       "PctResp" : "7.910",
-      "PctRespMA7Days" : "7.500000"
+      "PctRespMA7Days" : "7.500000",
+      "AdmissionDate" : "2020-01-16",
+      "RespVisits" : 98
    },
    {
+      "PctRespMA7Days" : "7.331704",
       "AllVisits" : 1227,
       "PctResp" : "7.172",
-      "RespVisits" : 88,
       "AdmissionDate" : "2020-01-17",
-      "PctRespMA7Days" : "7.331704"
+      "RespVisits" : 88
    },
    {
-      "PctRespMA7Days" : "7.432357",
       "RespVisits" : 95,
       "AdmissionDate" : "2020-01-18",
-      "PctResp" : "8.528",
-      "AllVisits" : 1114
+      "PctRespMA7Days" : "7.432357",
+      "AllVisits" : 1114,
+      "PctResp" : "8.528"
    },
    {
-      "RespVisits" : 98,
-      "AdmissionDate" : "2020-01-19",
+      "PctRespMA7Days" : "7.444894",
       "AllVisits" : 1165,
       "PctResp" : "8.412",
-      "PctRespMA7Days" : "7.444894"
+      "AdmissionDate" : "2020-01-19",
+      "RespVisits" : 98
    },
    {
-      "RespVisits" : 98,
-      "AdmissionDate" : "2020-01-20",
-      "AllVisits" : 1488,
       "PctResp" : "6.586",
-      "PctRespMA7Days" : "7.461012"
+      "AllVisits" : 1488,
+      "PctRespMA7Days" : "7.461012",
+      "RespVisits" : 98,
+      "AdmissionDate" : "2020-01-20"
    },
    {
-      "RespVisits" : 104,
-      "AdmissionDate" : "2020-01-21",
+      "PctRespMA7Days" : "7.434484",
       "AllVisits" : 1366,
       "PctResp" : "7.613",
-      "PctRespMA7Days" : "7.434484"
+      "RespVisits" : 104,
+      "AdmissionDate" : "2020-01-21"
    },
    {
       "AllVisits" : 1430,
       "PctResp" : "7.622",
+      "PctRespMA7Days" : "7.642042",
       "AdmissionDate" : "2020-01-22",
-      "RespVisits" : 109,
-      "PctRespMA7Days" : "7.642042"
+      "RespVisits" : 109
    },
    {
-      "PctRespMA7Days" : "7.442519",
-      "AdmissionDate" : "2020-01-23",
       "RespVisits" : 91,
+      "AdmissionDate" : "2020-01-23",
+      "PctResp" : "6.561",
       "AllVisits" : 1387,
-      "PctResp" : "6.561"
+      "PctRespMA7Days" : "7.442519"
    },
    {
+      "RespVisits" : 86,
+      "AdmissionDate" : "2020-01-24",
       "PctRespMA7Days" : "7.306867",
       "AllVisits" : 1370,
-      "PctResp" : "6.277",
-      "AdmissionDate" : "2020-01-24",
-      "RespVisits" : 86
+      "PctResp" : "6.277"
    },
    {
-      "AdmissionDate" : "2020-01-25",
       "RespVisits" : 104,
+      "AdmissionDate" : "2020-01-25",
       "AllVisits" : 1190,
       "PctResp" : "8.739",
       "PctRespMA7Days" : "7.343550"
    },
    {
-      "PctRespMA7Days" : "7.586424",
       "AdmissionDate" : "2020-01-26",
       "RespVisits" : 130,
       "PctResp" : "10.109",
-      "AllVisits" : 1286
+      "AllVisits" : 1286,
+      "PctRespMA7Days" : "7.586424"
    },
    {
-      "RespVisits" : 133,
-      "AdmissionDate" : "2020-01-27",
+      "PctRespMA7Days" : "7.952516",
       "PctResp" : "8.926",
       "AllVisits" : 1490,
-      "PctRespMA7Days" : "7.952516"
+      "RespVisits" : 133,
+      "AdmissionDate" : "2020-01-27"
    },
    {
+      "RespVisits" : 109,
+      "AdmissionDate" : "2020-01-28",
       "PctResp" : "7.910",
       "AllVisits" : 1378,
-      "AdmissionDate" : "2020-01-28",
-      "RespVisits" : 109,
       "PctRespMA7Days" : "7.994964"
    },
    {
-      "PctRespMA7Days" : "7.977933",
       "RespVisits" : 99,
       "AdmissionDate" : "2020-01-29",
+      "PctResp" : "7.472",
       "AllVisits" : 1325,
-      "PctResp" : "7.472"
+      "PctRespMA7Days" : "7.977933"
    },
    {
-      "PctResp" : "6.922",
-      "AllVisits" : 1329,
-      "RespVisits" : 92,
       "AdmissionDate" : "2020-01-30",
-      "PctRespMA7Days" : "8.038002"
+      "RespVisits" : 92,
+      "PctRespMA7Days" : "8.038002",
+      "PctResp" : "6.922",
+      "AllVisits" : 1329
    },
    {
-      "AllVisits" : 1271,
-      "PctResp" : "9.127",
-      "RespVisits" : 116,
       "AdmissionDate" : "2020-01-31",
-      "PctRespMA7Days" : "8.447513"
+      "RespVisits" : 116,
+      "PctRespMA7Days" : "8.447513",
+      "AllVisits" : 1271,
+      "PctResp" : "9.127"
    },
    {
-      "AllVisits" : 1300,
+      "PctRespMA7Days" : "8.348438",
       "PctResp" : "8.000",
-      "RespVisits" : 104,
+      "AllVisits" : 1300,
       "AdmissionDate" : "2020-02-01",
-      "PctRespMA7Days" : "8.348438"
+      "RespVisits" : 104
    },
    {
-      "PctRespMA7Days" : "8.354701",
+      "RespVisits" : 129,
+      "AdmissionDate" : "2020-02-02",
       "PctResp" : "10.182",
       "AllVisits" : 1267,
-      "AdmissionDate" : "2020-02-02",
-      "RespVisits" : 129
+      "PctRespMA7Days" : "8.354701"
    },
    {
       "PctRespMA7Days" : "8.116468",
-      "RespVisits" : 112,
-      "AdmissionDate" : "2020-02-03",
       "AllVisits" : 1506,
-      "PctResp" : "7.437"
+      "PctResp" : "7.437",
+      "RespVisits" : 112,
+      "AdmissionDate" : "2020-02-03"
    },
    {
-      "AdmissionDate" : "2020-02-04",
-      "RespVisits" : 116,
-      "PctResp" : "8.061",
       "AllVisits" : 1439,
-      "PctRespMA7Days" : "8.138180"
+      "PctResp" : "8.061",
+      "PctRespMA7Days" : "8.138180",
+      "AdmissionDate" : "2020-02-04",
+      "RespVisits" : 116
    },
    {
-      "PctResp" : "7.243",
-      "AllVisits" : 1422,
-      "RespVisits" : 103,
       "AdmissionDate" : "2020-02-05",
-      "PctRespMA7Days" : "8.097336"
+      "RespVisits" : 103,
+      "PctRespMA7Days" : "8.097336",
+      "AllVisits" : 1422,
+      "PctResp" : "7.243"
    },
    {
-      "PctRespMA7Days" : "8.154506",
-      "AdmissionDate" : "2020-02-06",
       "RespVisits" : 99,
-      "AllVisits" : 1348,
-      "PctResp" : "7.344"
+      "AdmissionDate" : "2020-02-06",
+      "PctRespMA7Days" : "8.154506",
+      "PctResp" : "7.344",
+      "AllVisits" : 1348
    },
    {
+      "PctResp" : "6.578",
+      "AllVisits" : 1277,
       "PctRespMA7Days" : "7.814625",
       "AdmissionDate" : "2020-02-07",
-      "RespVisits" : 84,
-      "PctResp" : "6.578",
-      "AllVisits" : 1277
+      "RespVisits" : 84
    },
    {
-      "PctResp" : "9.264",
       "AllVisits" : 1101,
+      "PctResp" : "9.264",
+      "PctRespMA7Days" : "7.959402",
       "AdmissionDate" : "2020-02-08",
-      "RespVisits" : 102,
-      "PctRespMA7Days" : "7.959402"
+      "RespVisits" : 102
    },
    {
-      "AllVisits" : 1225,
-      "PctResp" : "8.898",
       "AdmissionDate" : "2020-02-09",
       "RespVisits" : 109,
-      "PctRespMA7Days" : "7.780640"
+      "PctRespMA7Days" : "7.780640",
+      "AllVisits" : 1225,
+      "PctResp" : "8.898"
    },
    {
-      "PctResp" : "7.362",
-      "AllVisits" : 1399,
       "RespVisits" : 103,
       "AdmissionDate" : "2020-02-10",
+      "PctResp" : "7.362",
+      "AllVisits" : 1399,
       "PctRespMA7Days" : "7.773315"
    },
    {
-      "PctRespMA7Days" : "7.733773",
-      "AllVisits" : 1318,
       "PctResp" : "7.815",
+      "AllVisits" : 1318,
+      "PctRespMA7Days" : "7.733773",
       "AdmissionDate" : "2020-02-11",
       "RespVisits" : 103
    },
    {
+      "RespVisits" : 97,
+      "AdmissionDate" : "2020-02-12",
       "PctResp" : "7.019",
       "AllVisits" : 1382,
-      "AdmissionDate" : "2020-02-12",
-      "RespVisits" : 97,
       "PctRespMA7Days" : "7.701657"
    },
    {
-      "AdmissionDate" : "2020-02-13",
-      "RespVisits" : 90,
+      "PctRespMA7Days" : "7.646144",
       "PctResp" : "6.944",
       "AllVisits" : 1296,
-      "PctRespMA7Days" : "7.646144"
+      "AdmissionDate" : "2020-02-13",
+      "RespVisits" : 90
    },
    {
-      "AdmissionDate" : "2020-02-14",
-      "RespVisits" : 77,
+      "PctRespMA7Days" : "7.626834",
       "PctResp" : "6.374",
       "AllVisits" : 1208,
-      "PctRespMA7Days" : "7.626834"
+      "AdmissionDate" : "2020-02-14",
+      "RespVisits" : 77
    },
    {
       "PctRespMA7Days" : "7.507474",
-      "PctResp" : "8.229",
       "AllVisits" : 1203,
+      "PctResp" : "8.229",
       "RespVisits" : 99,
       "AdmissionDate" : "2020-02-15"
    },
@@ -1029,200 +1029,200 @@
       "PctRespMA7Days" : "7.496990"
    },
    {
-      "AdmissionDate" : "2020-02-17",
       "RespVisits" : 131,
-      "AllVisits" : 1370,
+      "AdmissionDate" : "2020-02-17",
+      "PctRespMA7Days" : "7.828283",
       "PctResp" : "9.562",
-      "PctRespMA7Days" : "7.828283"
+      "AllVisits" : 1370
    },
    {
-      "PctRespMA7Days" : "7.709849",
-      "AllVisits" : 1419,
-      "PctResp" : "7.047",
       "RespVisits" : 100,
-      "AdmissionDate" : "2020-02-18"
+      "AdmissionDate" : "2020-02-18",
+      "PctResp" : "7.047",
+      "AllVisits" : 1419,
+      "PctRespMA7Days" : "7.709849"
    },
    {
-      "RespVisits" : 76,
       "AdmissionDate" : "2020-02-19",
-      "PctResp" : "5.547",
+      "RespVisits" : 76,
+      "PctRespMA7Days" : "7.491573",
       "AllVisits" : 1370,
-      "PctRespMA7Days" : "7.491573"
+      "PctResp" : "5.547"
    },
    {
-      "RespVisits" : 110,
-      "AdmissionDate" : "2020-02-20",
-      "AllVisits" : 1339,
+      "PctRespMA7Days" : "7.673160",
       "PctResp" : "8.215",
-      "PctRespMA7Days" : "7.673160"
+      "AllVisits" : 1339,
+      "RespVisits" : 110,
+      "AdmissionDate" : "2020-02-20"
    },
    {
-      "RespVisits" : 95,
-      "AdmissionDate" : "2020-02-21",
-      "AllVisits" : 1350,
       "PctResp" : "7.037",
-      "PctRespMA7Days" : "7.748881"
+      "AllVisits" : 1350,
+      "PctRespMA7Days" : "7.748881",
+      "RespVisits" : 95,
+      "AdmissionDate" : "2020-02-21"
    },
    {
-      "RespVisits" : 93,
-      "AdmissionDate" : "2020-02-22",
       "AllVisits" : 1273,
       "PctResp" : "7.306",
-      "PctRespMA7Days" : "7.628015"
+      "PctRespMA7Days" : "7.628015",
+      "AdmissionDate" : "2020-02-22",
+      "RespVisits" : 93
    },
    {
-      "AllVisits" : 1280,
+      "PctRespMA7Days" : "7.403468",
       "PctResp" : "7.109",
-      "AdmissionDate" : "2020-02-23",
+      "AllVisits" : 1280,
       "RespVisits" : 91,
-      "PctRespMA7Days" : "7.403468"
+      "AdmissionDate" : "2020-02-23"
    },
    {
-      "PctRespMA7Days" : "6.806944",
-      "AdmissionDate" : "2020-02-24",
       "RespVisits" : 82,
+      "AdmissionDate" : "2020-02-24",
       "AllVisits" : 1474,
-      "PctResp" : "5.563"
+      "PctResp" : "5.563",
+      "PctRespMA7Days" : "6.806944"
    },
    {
       "AllVisits" : 1408,
       "PctResp" : "6.250",
-      "AdmissionDate" : "2020-02-25",
+      "PctRespMA7Days" : "6.688435",
       "RespVisits" : 88,
-      "PctRespMA7Days" : "6.688435"
+      "AdmissionDate" : "2020-02-25"
    },
    {
-      "PctRespMA7Days" : "6.803949",
-      "AdmissionDate" : "2020-02-26",
       "RespVisits" : 82,
-      "AllVisits" : 1297,
-      "PctResp" : "6.322"
+      "AdmissionDate" : "2020-02-26",
+      "PctRespMA7Days" : "6.803949",
+      "PctResp" : "6.322",
+      "AllVisits" : 1297
    },
    {
-      "PctRespMA7Days" : "6.653620",
+      "AdmissionDate" : "2020-02-27",
+      "RespVisits" : 81,
       "PctResp" : "7.258",
       "AllVisits" : 1116,
-      "AdmissionDate" : "2020-02-27",
-      "RespVisits" : 81
+      "PctRespMA7Days" : "6.653620"
    },
    {
-      "PctRespMA7Days" : "6.531950",
       "RespVisits" : 81,
       "AdmissionDate" : "2020-02-28",
+      "AllVisits" : 1307,
       "PctResp" : "6.197",
-      "AllVisits" : 1307
+      "PctRespMA7Days" : "6.531950"
    },
    {
       "AdmissionDate" : "2020-02-29",
       "RespVisits" : 119,
+      "PctRespMA7Days" : "6.839106",
       "PctResp" : "9.581",
-      "AllVisits" : 1242,
-      "PctRespMA7Days" : "6.839106"
+      "AllVisits" : 1242
    },
    {
-      "PctRespMA7Days" : "7.106655",
-      "RespVisits" : 112,
-      "AdmissionDate" : "2020-03-01",
+      "PctResp" : "9.091",
       "AllVisits" : 1232,
-      "PctResp" : "9.091"
+      "PctRespMA7Days" : "7.106655",
+      "AdmissionDate" : "2020-03-01",
+      "RespVisits" : 112
    },
    {
-      "PctRespMA7Days" : "7.200000",
       "RespVisits" : 85,
       "AdmissionDate" : "2020-03-02",
+      "PctRespMA7Days" : "7.200000",
       "PctResp" : "6.080",
       "AllVisits" : 1398
    },
    {
-      "AllVisits" : 1409,
-      "PctResp" : "7.168",
       "RespVisits" : 101,
       "AdmissionDate" : "2020-03-03",
-      "PctRespMA7Days" : "7.343628"
+      "PctRespMA7Days" : "7.343628",
+      "PctResp" : "7.168",
+      "AllVisits" : 1409
    },
    {
-      "RespVisits" : 90,
-      "AdmissionDate" : "2020-03-04",
+      "PctRespMA7Days" : "7.459026",
       "AllVisits" : 1265,
       "PctResp" : "7.115",
-      "PctRespMA7Days" : "7.459026"
+      "AdmissionDate" : "2020-03-04",
+      "RespVisits" : 90
    },
    {
-      "PctResp" : "6.449",
-      "AllVisits" : 1318,
       "AdmissionDate" : "2020-03-05",
       "RespVisits" : 85,
+      "PctResp" : "6.449",
+      "AllVisits" : 1318,
       "PctRespMA7Days" : "7.338349"
    },
    {
-      "PctRespMA7Days" : "7.591480",
-      "AllVisits" : 1291,
-      "PctResp" : "7.978",
+      "AdmissionDate" : "2020-03-06",
       "RespVisits" : 103,
-      "AdmissionDate" : "2020-03-06"
+      "PctRespMA7Days" : "7.591480",
+      "PctResp" : "7.978",
+      "AllVisits" : 1291
    },
    {
       "PctRespMA7Days" : "7.324876",
-      "PctResp" : "7.639",
       "AllVisits" : 1152,
+      "PctResp" : "7.639",
       "AdmissionDate" : "2020-03-07",
       "RespVisits" : 88
    },
    {
-      "PctResp" : "7.799",
-      "AllVisits" : 1154,
-      "RespVisits" : 90,
       "AdmissionDate" : "2020-03-08",
-      "PctRespMA7Days" : "7.143652"
+      "RespVisits" : 90,
+      "PctRespMA7Days" : "7.143652",
+      "AllVisits" : 1154,
+      "PctResp" : "7.799"
    },
    {
-      "AllVisits" : 1466,
+      "PctRespMA7Days" : "7.432358",
       "PctResp" : "7.913",
+      "AllVisits" : 1466,
       "AdmissionDate" : "2020-03-09",
-      "RespVisits" : 116,
-      "PctRespMA7Days" : "7.432358"
+      "RespVisits" : 116
    },
    {
-      "PctRespMA7Days" : "7.591127",
-      "AdmissionDate" : "2020-03-10",
       "RespVisits" : 109,
+      "AdmissionDate" : "2020-03-10",
+      "AllVisits" : 1325,
       "PctResp" : "8.226",
-      "AllVisits" : 1325
+      "PctRespMA7Days" : "7.591127"
    },
    {
-      "PctRespMA7Days" : "7.682927",
-      "PctResp" : "7.763",
       "AllVisits" : 1314,
-      "AdmissionDate" : "2020-03-11",
-      "RespVisits" : 102
+      "PctResp" : "7.763",
+      "PctRespMA7Days" : "7.682927",
+      "RespVisits" : 102,
+      "AdmissionDate" : "2020-03-11"
    },
    {
-      "PctRespMA7Days" : "8.769009",
-      "AllVisits" : 1307,
-      "PctResp" : "13.925",
+      "RespVisits" : 182,
       "AdmissionDate" : "2020-03-12",
-      "RespVisits" : 182
+      "PctRespMA7Days" : "8.769009",
+      "PctResp" : "13.925",
+      "AllVisits" : 1307
    },
    {
+      "PctRespMA7Days" : "9.694392",
       "PctResp" : "14.733",
       "AllVisits" : 1215,
-      "RespVisits" : 179,
       "AdmissionDate" : "2020-03-13",
-      "PctRespMA7Days" : "9.694392"
+      "RespVisits" : 179
    },
    {
+      "AdmissionDate" : "2020-03-14",
+      "RespVisits" : 126,
       "PctRespMA7Days" : "10.243626",
       "AllVisits" : 1044,
-      "PctResp" : "12.069",
-      "AdmissionDate" : "2020-03-14",
-      "RespVisits" : 126
+      "PctResp" : "12.069"
    },
    {
-      "PctResp" : "13.447",
       "AllVisits" : 937,
-      "AdmissionDate" : "2020-03-15",
+      "PctResp" : "13.447",
+      "PctRespMA7Days" : "10.920074",
       "RespVisits" : 126,
-      "PctRespMA7Days" : "10.920074"
+      "AdmissionDate" : "2020-03-15"
    },
    {
       "AdmissionDate" : "2020-03-16",
@@ -1234,28 +1234,28 @@
    {
       "PctResp" : "14.831",
       "AllVisits" : 917,
+      "PctRespMA7Days" : "12.765957",
       "AdmissionDate" : "2020-03-17",
-      "RespVisits" : 136,
-      "PctRespMA7Days" : "12.765957"
+      "RespVisits" : 136
    },
    {
-      "PctRespMA7Days" : "14.070487",
       "PctResp" : "15.911",
       "AllVisits" : 993,
-      "RespVisits" : 158,
-      "AdmissionDate" : "2020-03-18"
+      "PctRespMA7Days" : "14.070487",
+      "AdmissionDate" : "2020-03-18",
+      "RespVisits" : 158
    },
    {
-      "PctRespMA7Days" : "14.010756",
-      "RespVisits" : 126,
-      "AdmissionDate" : "2020-03-19",
+      "PctResp" : "13.419",
       "AllVisits" : 939,
-      "PctResp" : "13.419"
+      "PctRespMA7Days" : "14.010756",
+      "AdmissionDate" : "2020-03-19",
+      "RespVisits" : 126
    },
    {
-      "PctRespMA7Days" : "13.891787",
       "AdmissionDate" : "2020-03-20",
       "RespVisits" : 121,
+      "PctRespMA7Days" : "13.891787",
       "AllVisits" : 858,
       "PctResp" : "14.103"
    }
