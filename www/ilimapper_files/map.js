@@ -49,6 +49,7 @@ require([
 		
 		for(var i in layerInfo){  
 			var l = new KMLLayerModel(layerInfo[i].id, layerInfo[i].displayName, layerInfo[i].legendURL, layerInfo[i].URLParams, layerInfo[i].metaDataURL, /*layerInfo.tooltip,*/ layerInfo[i].baseURL, layerInfo[i].experimental, layerInfo[i].requireProxy, layerInfo[i].opacity, layerInfo[i].isVisible, layerInfo[i].timeParams, layerInfo[i].timeEnabled); 
+                        l.iconProxy = '';
 			layerArray.push(l);  		
 		}
 	  

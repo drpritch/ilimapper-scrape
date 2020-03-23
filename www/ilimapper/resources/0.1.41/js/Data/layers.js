@@ -92,7 +92,7 @@
 					"dataSourceType": "WMS",
 					"dataSourceFormat": "KML",
 					"displayName": "Hospitals",
-					"baseURL": "http://proxy.kflaphi.ca/?http://geo2.kflaphi.ca/geoserver/KFLA/wms",
+					"baseURL": "KFLA-Hospitals_ER.kml",
 					//"baseURL": "http://prodcl1.kflaphi.ca/geoserver/kfla/wms?",
 					"url": "KFLA-Hospitals_ER.kml",
 					"metaDataURL": "",
