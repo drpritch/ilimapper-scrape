@@ -22,3 +22,10 @@ for DATE in $DATES2020; do
     wget -O KFLA-ili_mapper_$DATE.kml "$BASEURL&layers=KFLA%3Aili_mapper&$URLPARAMS1&$VIEWPARAMS$DATE%3BGeoType%3APHU&$URLPARAMS2"
     wget -O KFLA-ili_mapper_lhin_$DATE.kml "$BASEURL&layers=KFLA%3Aili_mapper_lhin&$URLPARAMS1&$VIEWPARAMS$DATE%3BGeoType%3ALHIN&$URLPARAMS2"
 done
+
+
+#http://mapper.kflaphi.ca/ilimapper/API/getSeasons
+#http://mapper.kflaphi.ca/ilimapper/API/getCutoffs?flu_season=7&geo_type=Phu
+#http://mapper.kflaphi.ca/ilimapper/API/getCutoffs?flu_season=7&geo_type=Lhin
+#https://aces.kflaphi.ca/aces/ILIMapper/getPercentages?PHU=COHU
+ln -s ../raw .

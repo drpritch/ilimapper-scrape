@@ -33,7 +33,8 @@ AnalysisModel.prototype = {
         this.totalVisits = [];
 
         var _this = this;
-        $.ajax('https://aces.kflaphi.ca/aces/ILIMapper/getPercentages?PHU=' + this.currentRegion)
+        //$.ajax('https://aces.kflaphi.ca/aces/ILIMapper/getPercentages?PHU=' + this.currentRegion)
+        $.ajax('raw/' + this.currentRegion + '.json')
             .done( function(data) {
                 if ( data && data.length ) {
                     // Put data into correct arrays (oldest date to newest date)
