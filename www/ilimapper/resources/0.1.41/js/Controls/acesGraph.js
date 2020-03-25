@@ -40,7 +40,7 @@
 
 				// Get percent resp data and set graph
 				//$.get("https://aces.kflaphi.ca/aces/ILIMapper/getPercentages?PHU=" + phuID[1], function(data) {
-				$.get("/raw/" + phuID[1] + ".json", function(data) {
+				$.get("raw/" + phuID[1] + ".json", function(data) {
 
 					var xAxisDates = []; // Date array of data
 					var pctResp = []; // Percent Resp of ED visits
